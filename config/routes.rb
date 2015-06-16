@@ -2,6 +2,10 @@ Rails.application.routes.draw do
 
 
 
+  get 'bookclub/index'
+
+  get 'bookclub/index'
+
   get "/home", to: "home#index"
   root to: "home#index"
 

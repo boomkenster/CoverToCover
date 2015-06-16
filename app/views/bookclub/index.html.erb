@@ -1,0 +1,14 @@
+<h1>Mark Zuckerberg's Reading List</h1>
+
+
+<ul class="collection">
+<% @marks_club.map do |title| %>
+
+
+  <li class="collection-item"><%= Goodreads.new.book_by_title(title) %></li>
+  <li class="collection-item">Book</li>
+  <li class="collection-item">Book</li>
+  <li class="collection-item">Book</li>
+  <% end %>
+</ul>
+            

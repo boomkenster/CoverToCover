@@ -1,9 +1,18 @@
-# class GoodreadsService
-#   attr_reader :connection
+class GoodreadsService
 
-#   def initialize(title)
-#     @connection = ?key=etqMLxzhOFQ2Ljxtk7Ukew&q=Ender%27s+GameHurley::Client.new("https://www.goodreads.com/search.xml")
-#   end
+  def initialize
+    data = {}
+  end
 
+  def find_by_title(title)
+  book = Goodreads.new.book_by_title(title)
 
-# end
+  data = {average_rating: book.average_rating,
+   small_url: book.small_image_url,
+   authors: book.authors,
+   name: book.name,
+   description: book.description
+  }
+  end
+
+end

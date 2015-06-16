@@ -1,8 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
-require 'hurley'
-require 'hurley/http_cache'
+require "hurley/addressable"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.

@@ -1,0 +1,21 @@
+<div class="row">
+ <% @marks_club.each do |book| %>
+ <div class="col s12 m4">
+ <div class="card small">
+       <div class="sizer activator floater card-title "><%= image_tag("#{book.image_url}") %></div>
+    <div class="card-image waves-effect waves-block waves-light">
+     <div class=>
+     </div>
+     <div class="card-content floater">
+      <span class="activator text-card"><%= book.title %> <i class="mdi-navigation-more-vert right"></i></span>
+      <!--    <p><a href="#">This is a link</a></p> -->
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4"><i class="mdi-navigation-close right"></i></span>
+      <p><%= book.description %></p>
+    </div>
+  </div>
+</div>
+</div>
+<% end %>
+</div>

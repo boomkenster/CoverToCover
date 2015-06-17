@@ -45,6 +45,18 @@ p {
   }
 }
 
+.text-card{
+  center-align,
+  font-size: 10px;
+}
+
+.floater{
+  float: left;
+}
+
+.sizer{
+  width: 35%;
+}
 
 .icon-block {
   padding: 0 15px;

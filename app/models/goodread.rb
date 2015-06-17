@@ -5,7 +5,7 @@ class GoodreadsService
   end
 
   def find_by_title(title)
-  book = Goodsreads.new.book_by_title(title)
+  book = Goodreads.new.book_by_title(title)
 
   data = {average_rating: book.average_rating,
    small_url: book.small_image_url,

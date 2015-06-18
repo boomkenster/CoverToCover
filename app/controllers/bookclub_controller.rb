@@ -1,6 +1,6 @@
 class BookclubController < ApplicationController
   def index
-    @marks_club = GoodreadsService.marks_list
+    @marks_club = Booklist.marks_list.books
   end
 
   def oprah

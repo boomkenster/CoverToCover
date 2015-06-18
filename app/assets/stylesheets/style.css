@@ -54,8 +54,21 @@ p {
   float: left;
 }
 
+.btn-adjust{
+  margin-top: 12px;
+}
+
+.maxie{
+  max-height: 200px;
+}
+
+.nav-font{
+  color: 80cbc4;
+  font-size: 8px;
+}
+
 .sizer{
-  width: 35%;
+  width: 25%;
 }
 
 .icon-block {

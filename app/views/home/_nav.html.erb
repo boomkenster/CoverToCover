@@ -1,16 +1,20 @@
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">CoverToCover</a>
+      <a id="logo-container" href="#" class="brand-logo nav">CoverToCover</a>
 <!--       <ul class="right hide-on-med-and-down">
         <li><a href="#">Bookclubs</a></li>
       </ul> -->
 
-      <a class='dropdown-button btn right hide-on-med-and-down' href='#' data-activates='dropdown1'>Bookclubs</a>
+      <a class='dropdown-button btn right hide-on-med-and-down btn-adjust' href='#' data-activates='dropdown1'>Bookclubs</a>
 
     <ul id='dropdown1' class='dropdown-content'>
 
     <li><%= link_to "Mark Zuckerberg", bookclub_index_path %></li> 
-    <li><%= link_to "Oprah's Club", bookclub_oprah_path %></li> 
+    <li><%= link_to "Steve Jobs", bookclub_oprah_path %></li>
+    <li><%= link_to "Marc Andreessen", bookclub_oprah_path %></li> 
+    <li><%= link_to "Ben Horowitz", bookclub_oprah_path %></li>
+    <li><%= link_to "Larry Page", bookclub_oprah_path %></li> 
+
     <li class="divider"></li>
     <li><%= link_to "Top 100 All Time", bookclub_index_path %></li> 
     <li><%= link_to "NYT Best Seller", bookclub_index_path %></li> 

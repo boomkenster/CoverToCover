@@ -1,4 +1,4 @@
-class GoodreadsService < OpenStruct
+class GoodreadsService
   MARKS_LIST = [
     "On Immunity: An Inoculation",
     "Rational Ritual",

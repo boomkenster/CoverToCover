@@ -4,6 +4,14 @@ Rails.application.routes.draw do
 
   get 'bookclub/index'
   get 'bookclub/oprah'
+  get 'bookclub/steve'
+  get 'bookclub/marc'
+  get 'bookclub/ben'
+  get 'bookclub/larry'
+  get 'bookclub/jeff'
+  get 'bookclub/peter'
+  get 'bookclub/bill'
+
 
   get "/home", to: "home#index"
   root to: "home#index"

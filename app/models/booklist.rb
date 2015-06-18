@@ -7,4 +7,8 @@ class Booklist < ActiveRecord::Base
     Booklist.find_by(name: "Mark's List")
   end
 
+  def self.oprahs_list
+    Booklist.find_by(name: "Oprah's Club")
+  end
+
 end

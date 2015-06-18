@@ -1,33 +1,5 @@
   <%= render partial: 'home/nav' %>
 
-<h3 class="center-align">Oprah's Reading Club</h3>
-
-<div class="row">
- <% @oprahs_list.each do |book| %>
-  <div class="col s12 m4">
-    <div class="card small">
-      <div class="card-image sizer">
-        <%= image_tag("#{book.image_url}") %>
-      </div>
-      <div class="card-content activator">
-      <% if book.authors.author.to_a[1][1].nil? %>
-          <p><strong><%= "#{book.title}" %></strong></p>
-      <% else %>
-          <p><strong><%= "#{book.title}"%></strong> by <%= "#{book.authors.author.to_a[1][1]}" %></p><br>
-      <% end %>
-        <p>Rating: <%= book.average_rating %></p><br>
-        </p><i class="mdi-navigation-more-vert right"></i></span>
-      </div>
-
-              <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Description <i class="mdi-navigation-close right"></i></span>
-          <p><%= book.description %></p>
-        </div>
-<!--       <div class="card-action">
-        <a href="#">This is a link</a>
-        <a href='#'>This is a link</a>
-      </div> -->
-    </div>
-  </div>
-  <% end %>
-</div>
+<h3 class="center-align">Oparh's Book Club</h3>
+ 
+ <%= render partial: "booklist", locals: {name: @oprahs_club} %>

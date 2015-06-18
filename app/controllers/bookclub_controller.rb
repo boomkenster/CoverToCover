@@ -4,6 +4,6 @@ class BookclubController < ApplicationController
   end
 
   def oprah
-    @oprahs_list = GoodreadsService.oprahs_list
+    @oprahs_club = Booklist.oprahs_list.books
   end
 end

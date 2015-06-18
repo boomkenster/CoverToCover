@@ -1,34 +1,4 @@
   <%= render partial: 'home/nav' %>
 
 <h3 class="center-align">Mark Zuckerberg's Reading List</h3>
-   <% @marks_club.each do |book| %>
-  <div class="row maxie">
-    <h2 class="center-align" id="user-page" data-user-login=" login "><%=  %></h2>
-
-     <div class="col s12 m6 maxie">
-          <div class="card">
-            <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4 event-title"> <i class="mdi-navigation-more-vert right"></i></span>
-                  <div class="waves-effect waves-block waves-light col s3">
-                    <p> <%= image_tag("#{book.image_url}") %></p>
-
-                  </div>
-
-                  <div class="col s8 offest-s3">
-                    <p><h5 class="event-user-login"></h5>
-                          <% if book.author.nil? %>
-                      <p><strong><%= "#{book.title}" %></strong></p>
-                  <% else %>
-                      <p><strong><%= "#{book.title}"%></strong> by <%= "#{book.author}" %></p><br>
-                  <% end %>
-                    <p>Rating: <%= book.rating %></p><br>
-                  </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Description <i class="mdi-navigation-close right"></i></span>
-                <p><%= book.description %></p>
-              </div>
-            </div>
-        </div>
-              </div>
-              <% end %>
-  </div>
+ <%= render partial: "booklist", locals: {name: @marks_club} %>

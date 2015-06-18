@@ -22,8 +22,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'materialize-sass'
 gem 'figaro'
-gem 'hurley'
-gem 'nokogiri'
 gem 'goodreads'
 
 # Use ActiveModel has_secure_password

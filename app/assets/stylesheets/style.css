@@ -54,8 +54,16 @@ p {
   float: left;
 }
 
+.btn-adjust{
+  margin-top: 12px;
+}
+
+.maxie{
+  max-height: 200px;
+}
+
 .sizer{
-  width: 35%;
+  width: 25%;
 }
 
 .icon-block {

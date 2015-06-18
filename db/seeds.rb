@@ -29,6 +29,8 @@ A Great Leap Forward: 1930s Depression and U.S. Economic Growth", "This Time Is 
 
   BILL_GATES = ["Tap Dancing to Work: Warren Buffett on Practically Everything, 1966-2012", "Making the Modern World: Materials and Dematerialization", "The Sixth Extinction: An Unnatural History", "Stress Test: Reflections on Financial Crises", "The Better Angels of Our Nature: Why Violence Has Declined", "The Man Who Fed the World", "Business Adventures: Twelve Classic Tales from the World of Wall Street", "The Bully Pulpit: Theodore Roosevelt, William Howard Taft, and the Golden Age of Journalism", "The Rosie Project: A Novel"]
 
+  PETER_THIEL = ["The Black Swan", "New Atlantis", "The American Challenge", "The Right Stuff", "The Sovereign Individual", "The Diamond Age", "100 Plus", "Bloodlands", "Resurrection from the Underground"]
+
 
   Booklist.create(name: "Mark's List")
   Booklist.create(name: "Oprah's Club")

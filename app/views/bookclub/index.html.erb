@@ -10,12 +10,12 @@
         <%= image_tag("#{book.image_url}") %>
       </div>
       <div class="card-content activator">
-      <% if book.authors.author.to_a[1][1].nil? %>
+      <% if book.author.nil? %>
           <p><strong><%= "#{book.title}" %></strong></p>
       <% else %>
-          <p><strong><%= "#{book.title}"%></strong> by <%= "#{book.authors.author.to_a[1][1]}" %></p><br>
+          <p><strong><%= "#{book.title}"%></strong> by <%= "#{book.author}" %></p><br>
       <% end %>
-        <p>Rating: <%= book.average_rating %></p><br>
+        <p>Rating: <%= book.rating %></p><br>
         </p><i class="mdi-navigation-more-vert right"></i></span>
       </div>
 

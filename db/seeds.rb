@@ -189,7 +189,7 @@
     end
 
   def oprah_db
-    oprah_list.map do |cover|
+    oprahs_list.map do |cover|
       Book.create(
         title: cover.title,
         author: cover.authors.author.to_a[1][1],

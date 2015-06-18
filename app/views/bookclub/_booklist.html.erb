@@ -22,7 +22,7 @@
                   </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Description <i class="mdi-navigation-close right"></i></span>
-                <p><%= book.description %></p>
+                <p><%= strip_tags(book.description) %></p>
               </div>
             </div>
         </div>

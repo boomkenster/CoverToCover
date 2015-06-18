@@ -26,4 +26,16 @@ class Booklist < ActiveRecord::Base
   def self.larrys_list
     Booklist.find_by(name: "Larry Page")
   end
+
+  def self.jeffs_list
+    Booklist.find_by(name: "Jeff Bezos")
+  end
+
+  def self.peters_list
+    Booklist.find_by(name: "Peter Thiel")
+  end
+
+  def self.bills_list
+    Booklist.find_by(name: "Bill Gates")
+  end
 end

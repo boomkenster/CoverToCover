@@ -22,4 +22,17 @@ class BookclubController < ApplicationController
   def larry
     @larrys_club = Booklist.larrys_list.books  
   end
+
+  def jeff
+    @jeffs_club = Booklist.jeffs_list.books  
+  end
+
+  def peter
+    @peters_club = Booklist.peters_list.books  
+  end
+
+  def bill
+    @bills_club = Booklist.bills_list.books  
+  end
+
 end

@@ -58,7 +58,7 @@ class BookclubController < ApplicationController
   def nyt
     @nyt_list = Booklist.nyt_list
     @nyt_data = Nyt.lists
-    
+
     respond_with @nyt_data
   end
 

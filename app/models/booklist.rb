@@ -42,4 +42,11 @@ class Booklist < ActiveRecord::Base
   def self.nyt_list
     Nyt.images
   end
+
+  def self.all_list_books
+    lists = Booklist.all
+    lists.map do |list|
+      {list.name => list.books}
+    end
+  end
 end

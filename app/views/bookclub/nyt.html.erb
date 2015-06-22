@@ -1,0 +1,15 @@
+  <%= render partial: 'home/nav' %>
+
+<h3 class="center-align">New York Times Best Seller</h3>
+
+    <% @nyt_list.each do |book| %>
+<div class="row">
+  <div class="col s12 m3">
+        <div class="card center-align minie"> 
+          <%= image_tag book%> 
+        <div>
+  </div>
+</div>
+</div>
+        <% end %>
+</div>

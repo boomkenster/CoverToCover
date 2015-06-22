@@ -35,4 +35,8 @@ class BookclubController < ApplicationController
     @bills_club = Booklist.bills_list.books  
   end
 
+  def nyt
+    @nyt_list = Booklist.nyt_list
+  end
+
 end

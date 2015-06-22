@@ -1,10 +1,8 @@
 class NytService
-  require "hurley"
   attr_reader :connection
 
-
   def initialize
-    @connection = Hurley::Client.new('http://api.nytimes.com/svc/books/v2/lists')
+    @connection = Hurley::Client.new('http://api.nytimes.com/svc/books/v3/lists')
   end
 
   def best_seller
@@ -12,11 +10,12 @@ class NytService
   end
 
   def time_best_seller
-    time = (Time.now - 21.days).strftime("%Y-%m-%e")
-    connection.get("http://api.nytimes.com/svc/books/v3/lists/overview.json?callback=books&published_date=#{time}&api-key=#{URI.escape(ENV["NYT_KEY"])}")
+    time = (Time.now - 30.days).strftime("%Y-%m-%e")
+    time.gsub!(" ", "0")
+    JSON.parse(connection.get("http://api.nytimes.com/svc/books/v3/lists/overview.json?callback=books&published_date=#{time}&api-key=#{URI.escape(ENV["NYT_KEY"])}").body, symbolize_names: true)
   end
 
   # response["results"]["lists"]
-  
+
 
 end

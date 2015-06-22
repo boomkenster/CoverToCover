@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'bookclub/jeff'
   get 'bookclub/peter'
   get 'bookclub/bill'
+  get 'bookclub/nyt'
 
   
   get "/home", to: "home#index"

@@ -38,4 +38,8 @@ class Booklist < ActiveRecord::Base
   def self.bills_list
     Booklist.find_by(name: "Bill Gates")
   end
+
+  def self.nyt_list
+    Nyt.images
+  end
 end

@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
-
+  namespace :api do
+    namespace :v1 do
+      resources :booklists, except: [:new, :edit]
+    end
+  end 
 
   get 'bookclub/index'
   get 'bookclub/oprah'

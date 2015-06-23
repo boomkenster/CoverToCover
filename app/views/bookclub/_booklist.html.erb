@@ -14,9 +14,9 @@
                   <div class="col s8 offest-s3">
                     <p><h5 class="event-user-login"></h5>
                           <% if book.author.nil? %>
-                      <p><strong><%= "#{book.title}" %></strong></p>
+                      <p class="title-font"><strong><%= "#{book.title}" %></strong></p>
                   <% else %>
-                      <p><strong><%= "#{book.title}"%></strong> by <%= "#{book.author}" %></p><br>
+                      <p class="title-font"><strong><%= "#{book.title}"%></strong><em>  -  <%= "#{book.author}" %></p><br></em>
                   <% end %>
                     <p>Rating: <%= book.rating %></p><br>
                   </div>

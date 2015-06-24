@@ -16,7 +16,7 @@
                           <% if book.author.nil? %>
                       <p class="title-font"><strong><%= "#{book.title}" %></strong></p>
                   <% else %>
-                      <p class="title-font"><strong><%= "#{book.title}"%></strong><em>  -  <%= "#{book.author}" %></p><br></em>
+                      <p class="title-font"><strong><%= "#{book.title}"%></strong><em> ~ <%= "#{book.author}" %></p><br></em>
                   <% end %>
                     <p>Rating: <%= book.rating %></p><br>
                   </div>

@@ -1,0 +1,936 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=8b01ed4851c3f893158515de8b6d8973:13:72350631&callback=books&published_date=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Hurley v0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Mashery-Responder:
+      - prod-j-worker-atl-02.mashery.com
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Wed, 24 Jun 2015 16:42:31 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '94071'
+      X-Powered-By:
+      - PHP/5.5.10
+      Accept-Ranges:
+      - bytes
+      X-Varnish:
+      - 137739492 137690494
+      Age:
+      - '369'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: '{"status":"OK","copyright":"Copyright (c) 2015 The New York Times Company.  All
+        Rights Reserved.","num_results":195,"results":{"bestsellers_date":"2015-06-13","published_date":"2015-06-28","lists":[{"list_id":704,"list_name":"Combined
+        Print and E-Book Fiction","display_name":"Combined Print & E-Book Fiction","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781594633669.jpeg","books":[{"age_group":"","author":"Paula
+        Hawkins","contributor":"by Paula Hawkins","contributor_note":"","created_date":"2015-06-18
+        12:00:27","description":"A psychological thriller set in the environs of London
+        is full of complications and betrayals.","price":0,"primary_isbn13":"9780698185395","primary_isbn10":"0698185390","publisher":"Riverhead","rank":1,"title":"THE
+        GIRL ON THE TRAIN","updated_date":"2015-06-19 11:40:20"},{"age_group":"","author":"Andy
+        Weir","contributor":"by Andy Weir","contributor_note":"","created_date":"2015-06-18
+        12:00:27","description":"Abandoned by his crew, an astronaut embarks on a
+        dogged quest to stay alive.","price":0,"primary_isbn13":"9780804139038","primary_isbn10":"None","publisher":"Crown","rank":2,"title":"THE
+        MARTIAN","updated_date":"2015-06-19 11:40:20"},{"age_group":"","author":"Stephen
+        King","contributor":"by Stephen King","contributor_note":"","created_date":"2015-06-18
+        12:00:27","description":"A deranged reader\u2019s infatuation with a Salingeresque
+        novelist has dangerous and long-lasting consequences in a sequel to \u201cMr.
+        Mercedes.\u201d","price":0,"primary_isbn13":"9781501100079","primary_isbn10":"1501100076","publisher":"Scribner","rank":3,"title":"FINDERS
+        KEEPERS","updated_date":"2015-06-19 11:40:20"},{"age_group":"","author":"Anthony
+        Doerr","contributor":"by Anthony Doerr","contributor_note":"","created_date":"2015-06-18
+        12:00:27","description":"The lives of a blind French girl and a gadget-obsessed
+        German boy before and during World War II; the winner of the 2015 Pulitzer
+        Prize.","price":0,"primary_isbn13":"9781476746586","primary_isbn10":"1476746583","publisher":"Scribner","rank":4,"title":"ALL
+        THE LIGHT WE CANNOT SEE","updated_date":"2015-06-19 11:40:20"},{"age_group":"","author":"Laurell
+        K Hamilton","contributor":"by Laurell K. Hamilton","contributor_note":"","created_date":"2015-06-18
+        12:00:27","description":"The vampire hunter Anita Blake helps the F.B.I. investigate
+        zombie porn.","price":0,"primary_isbn13":"9780698140301","primary_isbn10":"0698140303","publisher":"Berkley","rank":5,"title":"DEAD
+        ICE","updated_date":"2015-06-19 11:40:20"}]},{"list_id":708,"list_name":"Combined
+        Print and E-Book Nonfiction","display_name":"Combined Print & E-Book Nonfiction","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781476728742.jpeg","books":[{"age_group":"","author":"David
+        McCullough","contributor":"by David McCullough","contributor_note":"","created_date":"2015-06-18
+        12:00:28","description":"The story of the bicycle mechanics from Ohio who
+        ushered in the age of flight; by the author of \u201c1776\u201d and \u201cThe
+        Greater Journey.\u201d","price":0,"primary_isbn13":"9781476728742","primary_isbn10":"1476728747","publisher":"Simon
+        & Schuster","rank":1,"title":"THE WRIGHT BROTHERS","updated_date":"2015-06-19
+        11:40:22"},{"age_group":"","author":"Daniel James Brown","contributor":"by
+        Daniel James Brown","contributor_note":"","created_date":"2015-06-18 12:00:28","description":"The
+        University of Washington\u2019s eight-oar crew and their quest for gold at
+        the 1936 Berlin Olympics.","price":0,"primary_isbn13":"9780143125471","primary_isbn10":"0143125478","publisher":"Penguin","rank":2,"title":"THE
+        BOYS IN THE BOAT","updated_date":"2015-06-19 11:40:22"},{"age_group":"","author":"Wednesday
+        Martin","contributor":"by Wednesday Martin","contributor_note":"","created_date":"2015-06-18
+        12:00:28","description":"A memoir of life among the wealthy women of the Upper
+        East Side, in the satirical guise of an anthropological study.","price":0,"primary_isbn13":"9781476762623","primary_isbn10":"1476762627","publisher":"Simon
+        & Schuster","rank":3,"title":"PRIMATES OF PARK AVENUE","updated_date":"2015-06-19
+        11:40:22"},{"age_group":"","author":"Erik Larson","contributor":"by Erik Larson","contributor_note":"","created_date":"2015-06-18
+        12:00:28","description":"The last voyage of the Lusitania, the passenger liner
+        sunk by a German torpedo in 1915; by the author of \u201cThe Devil in the
+        White City.\u201d","price":0,"primary_isbn13":"9780307408860","primary_isbn10":"0307408868","publisher":"Crown","rank":4,"title":"DEAD
+        WAKE","updated_date":"2015-06-19 11:40:22"},{"age_group":"","author":"David
+        Brooks","contributor":"by David Brooks","contributor_note":"","created_date":"2015-06-18
+        12:00:28","description":"The Times columnist extols personal virtues like
+        kindness and honesty in a materialistic age.","price":0,"primary_isbn13":"9780812993257","primary_isbn10":"081299325X","publisher":"Random
+        House","rank":5,"title":"THE ROAD TO CHARACTER","updated_date":"2015-06-19
+        11:40:22"}]},{"list_id":1,"list_name":"Hardcover Fiction","display_name":"Hardcover
+        Fiction","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781594633669.jpeg","books":[{"age_group":"","author":"Paula
+        Hawkins","contributor":"by Paula Hawkins","contributor_note":"","created_date":"2015-06-18
+        12:00:12","description":"A psychological thriller set in the environs of London.","price":0,"primary_isbn13":"9781594633669","primary_isbn10":"1594633665","publisher":"Riverhead","rank":1,"title":"THE
+        GIRL ON THE TRAIN","updated_date":"2015-06-19 11:40:10"},{"age_group":"","author":"Stephen
+        King","contributor":"by Stephen King","contributor_note":"","created_date":"2015-06-18
+        12:00:12","description":"A deranged reader''s infatuation with a Salingeresque
+        novelist has dangerous consequences in a sequel to \"Mr. Mercedes.\"","price":0,"primary_isbn13":"9781501100079","primary_isbn10":"1501100076","publisher":"Scribner","rank":2,"title":"FINDERS
+        KEEPERS","updated_date":"2015-06-19 11:40:10"},{"age_group":"","author":"Anthony
+        Doerr","contributor":"by Anthony Doerr","contributor_note":"","created_date":"2015-06-18
+        12:00:12","description":"The lives of a blind French girl and a gadget-obsessed
+        German boy before and during World War II; the winner of the 2015 Pulitzer
+        Prize. \u00a0","price":0,"primary_isbn13":"9781476746586","primary_isbn10":"1476746583","publisher":"Scribner","rank":3,"title":"ALL
+        THE LIGHT WE CANNOT SEE","updated_date":"2015-06-19 11:40:10"},{"age_group":"","author":"Judy
+        Blume","contributor":"by Judy Blume","contributor_note":"","created_date":"2015-06-18
+        12:00:13","description":"Secrets are revealed and love stories play out against
+        the backdrop of a series of plane crashes in 1950s New Jersey.","price":0,"primary_isbn13":"9781101875049","primary_isbn10":"1101875046","publisher":"Knopf","rank":4,"title":"IN
+        THE UNLIKELY EVENT","updated_date":"2015-06-19 11:40:10"},{"age_group":"","author":"Nelson
+        DeMille","contributor":"by Nelson DeMille","contributor_note":"","created_date":"2015-06-18
+        12:00:13","description":"A surveillance expert monitors the activities of
+        a newly resurgent Russia.","price":0,"primary_isbn13":"9780446580854","primary_isbn10":"0446580856","publisher":"Grand
+        Central","rank":5,"title":"RADIANT ANGEL","updated_date":"2015-06-19 11:40:10"}]},{"list_id":2,"list_name":"Hardcover
+        Nonfiction","display_name":"Hardcover Nonfiction","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781476728742.jpeg","books":[{"age_group":"","author":"David
+        McCullough","contributor":"by David McCullough","contributor_note":"","created_date":"2015-06-18
+        12:00:13","description":"The story of the bicycle mechanics from Ohio who
+        ushered in the age of flight.","price":0,"primary_isbn13":"9781476728742","primary_isbn10":"1476728747","publisher":"Simon
+        & Schuster","rank":1,"title":"THE WRIGHT BROTHERS","updated_date":"2015-06-19
+        11:40:11"},{"age_group":"","author":"Wednesday Martin","contributor":"by Wednesday
+        Martin","contributor_note":"","created_date":"2015-06-18 12:00:13","description":"A
+        memoir of life among the wealthy women of the Upper East Side, in the satiric
+        guise of an anthropological study.","price":0,"primary_isbn13":"9781476762623","primary_isbn10":"1476762627","publisher":"Simon
+        & Schuster","rank":2,"title":"PRIMATES OF PARK AVENUE","updated_date":"2015-06-19
+        11:40:11"},{"age_group":"","author":"David Fisher","contributor":"by David
+        Fisher","contributor_note":"","created_date":"2015-06-18 12:00:13","description":"Stories
+        of the American West; a companion volume to the Fox News series.","price":0,"primary_isbn13":"9781627795074","primary_isbn10":"1627795073","publisher":"Holt","rank":3,"title":"BILL
+        O''REILLY''S LEGENDS AND LIES","updated_date":"2015-06-19 11:40:11"},{"age_group":"","author":"David
+        Brooks","contributor":"by David Brooks","contributor_note":"","created_date":"2015-06-18
+        12:00:13","description":"The Times columnist extols personal virtues like
+        kindness and honesty in a materialistic age.","price":0,"primary_isbn13":"9780812993257","primary_isbn10":"081299325X","publisher":"Random
+        House","rank":4,"title":"THE ROAD TO CHARACTER","updated_date":"2015-06-19
+        11:40:11"},{"age_group":"","author":"Erik Larson","contributor":"by Erik Larson","contributor_note":"","created_date":"2015-06-18
+        12:00:13","description":"The last voyage of the Lusitania, the passenger liner
+        sunk by a German torpedo in 1915; by the author of \u201cThe Devil in the
+        White City.\u201d","price":0,"primary_isbn13":"9780307408860","primary_isbn10":"0307408868","publisher":"Crown","rank":5,"title":"DEAD
+        WAKE","updated_date":"2015-06-19 11:40:11"}]},{"list_id":17,"list_name":"Trade
+        Fiction Paperback","display_name":"Paperback Trade Fiction","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780804139038.jpeg","books":[{"age_group":"","author":"Andy
+        Weir","contributor":"by Andy Weir","contributor_note":"","created_date":"2015-06-18
+        12:00:20","description":"After a dust storm forces his crew to abandon him,
+        an astronaut embarks on a dogged quest to stay alive on Mars.","price":0,"primary_isbn13":"9780553418026","primary_isbn10":"0553418025","publisher":"Broadway","rank":1,"title":"THE
+        MARTIAN","updated_date":"2015-06-19 11:40:15"},{"age_group":"","author":"Donna
+        Tartt","contributor":"by Donna Tartt","contributor_note":"","created_date":"2015-06-18
+        12:00:20","description":"After his mother is killed in a museum explosion,
+        a young man grapples with the world alone while hiding a prized Dutch painting.","price":0,"primary_isbn13":"9780316055444","primary_isbn10":"0316055441","publisher":"Back
+        Bay\/Little, Brown","rank":2,"title":"THE GOLDFINCH","updated_date":"2015-06-19
+        11:40:15"},{"age_group":"","author":"Paulo Coelho","contributor":"by Paulo
+        Coelho","contributor_note":"","created_date":"2015-06-18 12:00:20","description":"In
+        this fable, a Spanish shepherd boy ventures to Egypt in search of treasure
+        and his destiny.","price":0,"primary_isbn13":"9780062315007","primary_isbn10":"0062315005","publisher":"HarperOne\/HarperCollins","rank":3,"title":"THE
+        ALCHEMIST","updated_date":"2015-06-19 11:40:15"},{"age_group":"","author":"Emily
+        St John Mandel","contributor":"by Emily St. John Mandel","contributor_note":"","created_date":"2015-06-18
+        12:00:20","description":"After a pandemic, a small troupe of actors and musicians
+        dedicate themselves to keeping the remnants of art and humanity alive.","price":0,"primary_isbn13":"9780804172448","primary_isbn10":"0804172447","publisher":"Vintage","rank":4,"title":"STATION
+        ELEVEN","updated_date":"2015-06-19 11:40:15"},{"age_group":"","author":"Sue
+        Monk Kidd","contributor":"by Sue Monk Kidd","contributor_note":"","created_date":"2015-06-18
+        12:00:20","description":"The bond between a wealthy Charleston girl, who grows
+        up to become an abolitionist, and the slave she is given for her 11th birthday.","price":0,"primary_isbn13":"9780143121701","primary_isbn10":"0143121707","publisher":"Penguin","rank":5,"title":"THE
+        INVENTION OF WINGS","updated_date":"2015-06-19 11:40:15"}]},{"list_id":18,"list_name":"Mass
+        Market Paperback","display_name":"Paperback Mass-Market Fiction","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780345542946.jpg","books":[{"age_group":"","author":"Janet
+        Evanovich","contributor":"by Janet Evanovich","contributor_note":"","created_date":"2015-06-18
+        12:00:21","description":"The New Jersey bounty hunter Stephanie Plum pursues
+        a popular used-car dealer who''s been caught selling more than cars.","price":0,"primary_isbn13":"9780345542939","primary_isbn10":"0345542932","publisher":"Bantam","rank":1,"title":"TOP
+        SECRET TWENTY-ONE","updated_date":"2015-06-19 11:40:16"},{"age_group":"","author":"Mary
+        Balogh","contributor":"by Mary Balogh","contributor_note":"","created_date":"2015-06-18
+        12:00:21","description":"A guilt-racked veteran of the Napoleonic Wars strikes
+        a marriage bargain with a woman who believes family scandal has doomed her
+        to a life of spinsterhood.","price":0,"primary_isbn13":"9780451469670","primary_isbn10":"0451469674","publisher":"Signet","rank":2,"title":"ONLY
+        A PROMISE","updated_date":"2015-06-19 11:40:16"},{"age_group":"","author":"James
+        Patterson and Michael Ledwidge","contributor":"by James Patterson and Michael
+        Ledwidge","contributor_note":"","created_date":"2015-06-18 12:00:21","description":"After
+        witnessing a coordinated lion ambush in Africa, a young biologist races to
+        warn world leaders about the reasons for escalating animal attacks on cities.","price":0,"primary_isbn13":"9781455591237","primary_isbn10":"None","publisher":"Vision","rank":3,"title":"ZOO","updated_date":"2015-06-19
+        11:40:16"},{"age_group":"","author":"James Rollins","contributor":"by James
+        Rollins","contributor_note":"","created_date":"2015-06-18 12:00:21","description":"Every
+        living thing around a military research station is annihilated, and Sigma
+        Force faces a threat that rises out of the distant past.","price":0,"primary_isbn13":"9780061785696","primary_isbn10":"0061785695","publisher":"Morrow\/HarperCollins","rank":4,"title":"THE
+        6TH EXTINCTION","updated_date":"2015-06-19 11:40:16"},{"age_group":"","author":"George
+        R R Martin","contributor":"by George R. R. Martin","contributor_note":"","created_date":"2015-06-18
+        12:00:21","description":"In the frozen wastes to the north of Winterfell,
+        sinister and supernatural forces are mustering; Book 1 of \"A Song of Ice
+        and Fire.\"","price":0,"primary_isbn13":"9780553573404","primary_isbn10":"0553573403","publisher":"Bantam","rank":5,"title":"A
+        GAME OF THRONES","updated_date":"2015-06-19 11:40:16"}]},{"list_id":4,"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781101622742.jpg","books":[{"age_group":"","author":"Daniel
+        James Brown","contributor":"by Daniel James Brown","contributor_note":"","created_date":"2015-06-18
+        12:00:14","description":"A group of American rowers pursued gold at the 1936
+        Berlin Olympic Games.","price":0,"primary_isbn13":"9780143125471","primary_isbn10":"0143125478","publisher":"Penguin","rank":1,"title":"THE
+        BOYS IN THE BOAT","updated_date":"2015-06-19 11:40:11"},{"age_group":"","author":"Malala
+        Yousafzai with Christina Lamb","contributor":"by Malala Yousafzai with Christina
+        Lamb","contributor_note":"","created_date":"2015-06-18 12:00:14","description":"The
+        Nobel Peace Prize-winner and teenage activist recounts her path to learning.","price":0,"primary_isbn13":"9780316322423","primary_isbn10":"0316322423","publisher":"Little,
+        Brown","rank":2,"title":"I AM MALALA","updated_date":"2015-06-19 11:40:11"},{"age_group":"","author":"Chris
+        Kyle with Scott McEwen and Jim DeFelice","contributor":"by Chris Kyle with
+        Scott McEwen and Jim DeFelice","contributor_note":"","created_date":"2015-06-18
+        12:00:14","description":"A memoir recounts the battlefield experiences in
+        Iraq by the Navy SEALs sniper; now a movie.","price":0,"primary_isbn13":"9780062376336","primary_isbn10":"0062376330","publisher":"Morrow\/HarperCollins","rank":3,"title":"AMERICAN
+        SNIPER","updated_date":"2015-06-19 11:40:11"},{"age_group":"","author":"Malcolm
+        Gladwell","contributor":"by Malcolm Gladwell","contributor_note":"","created_date":"2015-06-18
+        12:00:14","description":"Why some people succeed \u2014 it has to do with
+        luck and opportunities as well as talent.","price":0,"primary_isbn13":"9780316017930","primary_isbn10":"0316017930","publisher":"Back
+        Bay\/Little, Brown","rank":4,"title":"OUTLIERS","updated_date":"2015-06-19
+        11:40:11"},{"age_group":"","author":"Cheryl Strayed","contributor":"by Cheryl
+        Strayed","contributor_note":"","created_date":"2015-06-18 12:00:14","description":"A
+        woman\u2019s account of the life-changing 1,100-mile solo hike she took along
+        the Pacific Crest Trail in 1995; now a movie.","price":0,"primary_isbn13":"9780307476074","primary_isbn10":"0307476073","publisher":"Vintage","rank":5,"title":"WILD","updated_date":"2015-06-19
+        11:40:11"}]},{"list_id":201,"list_name":"E-Book Fiction","display_name":"E-Book
+        Fiction","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781594633669.jpeg","books":[{"age_group":"","author":"Paula
+        Hawkins","contributor":"by Paula Hawkins","contributor_note":"","created_date":"2015-06-18
+        12:00:24","description":"A psychological thriller set in the environs of London
+        is full of complications and betrayals.","price":0,"primary_isbn13":"9780698185395","primary_isbn10":"0698185390","publisher":"Riverhead","rank":1,"title":"THE
+        GIRL ON THE TRAIN","updated_date":"2015-06-19 11:40:18"},{"age_group":"","author":"Andy
+        Weir","contributor":"by Andy Weir","contributor_note":"","created_date":"2015-06-18
+        12:00:24","description":"After being left behind by his crew, an astronaut
+        embarks on a dogged quest to stay alive.","price":0,"primary_isbn13":"9780804139038","primary_isbn10":"None","publisher":"Crown","rank":2,"title":"THE
+        MARTIAN","updated_date":"2015-06-19 11:40:18"},{"age_group":"","author":"Laurell
+        K Hamilton","contributor":"by Laurell K. Hamilton","contributor_note":"","created_date":"2015-06-18
+        12:00:24","description":"The vampire hunter Anita Blake helps the F.B.I. investigate
+        zombie porn.","price":0,"primary_isbn13":"9780698140301","primary_isbn10":"0698140303","publisher":"Berkley","rank":3,"title":"DEAD
+        ICE","updated_date":"2015-06-19 11:40:18"},{"age_group":"","author":"Stephen
+        King","contributor":"by Stephen King","contributor_note":"","created_date":"2015-06-18
+        12:00:24","description":"A deranged reader''s infatuation with a Salingeresque
+        novelist has dangerous and long-lasting consequences in a sequel to \"Mr.
+        Mercedes.\"","price":0,"primary_isbn13":"9781501100130","primary_isbn10":"1501100130","publisher":"Scribner","rank":4,"title":"FINDERS
+        KEEPERS","updated_date":"2015-06-19 11:40:18"},{"age_group":"","author":"Denise
+        Grover Swank","contributor":"by Denise Grover Swank","contributor_note":"","created_date":"2015-06-18
+        12:00:24","description":"A couple find that their pretended engagement is
+        becoming increasingly attractive.","price":0,"primary_isbn13":"9781939996237","primary_isbn10":"1939996236","publisher":"Denise
+        Grover Swank","rank":5,"title":"THE SUBSTITUTE","updated_date":"2015-06-19
+        11:40:18"}]},{"list_id":202,"list_name":"E-Book Nonfiction","display_name":"E-Book
+        Nonfiction","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781101622742.jpg","books":[{"age_group":"","author":"Daniel
+        James Brown","contributor":"by Daniel James Brown","contributor_note":"","created_date":"2015-06-18
+        12:00:25","description":"The University of Washington\u2019s eight-oar crew
+        and their quest for gold at the 1936 Berlin Olympics.","price":0,"primary_isbn13":"9781101622742","primary_isbn10":"None","publisher":"Penguin","rank":1,"title":"THE
+        BOYS IN THE BOAT","updated_date":"2015-06-19 11:40:19"},{"age_group":"","author":"Lisa
+        See","contributor":"by Lisa See","contributor_note":"","created_date":"2015-06-18
+        12:00:25","description":"A multi-generational portrait of a Chinese-American
+        family\u2019s experience in the United States, the \u201cGold Mountain\u201d
+        of the title.","price":0,"primary_isbn13":"9781101910085","primary_isbn10":"1101910089","publisher":"St.
+        Martin''s Press","rank":2,"title":"ON GOLD MOUNTAIN","updated_date":"2015-06-19
+        11:40:19"},{"age_group":"","author":"David McCullough","contributor":"by David
+        McCullough","contributor_note":"","created_date":"2015-06-18 12:00:25","description":"The
+        story of the bicycle mechanics from Ohio who ushered in the age of flight;
+        by the author of \u201c1776\u201d and \u201cThe Greater Journey.\u201d","price":0,"primary_isbn13":"9781476728766","primary_isbn10":"1476728763","publisher":"Simon
+        & Schuster","rank":3,"title":"THE WRIGHT BROTHERS","updated_date":"2015-06-19
+        11:40:19"},{"age_group":"","author":"Wednesday Martin","contributor":"by Wednesday
+        Martin","contributor_note":"","created_date":"2015-06-18 12:00:25","description":"A
+        memoir of life among the wealthy women of the Upper East Side, in the satirical
+        guise of an anthropological study.","price":0,"primary_isbn13":"9781476762722","primary_isbn10":"1476762724","publisher":"Simon
+        & Schuster","rank":4,"title":"PRIMATES OF PARK AVENUE","updated_date":"2015-06-19
+        11:40:19"},{"age_group":"","author":"Erik Larson","contributor":"by Erik Larson","contributor_note":"","created_date":"2015-06-18
+        12:00:25","description":"The last voyage of the Lusitania, the passenger liner
+        sunk by a German torpedo in 1915; by the author of \"The Devil in the White
+        City.\"","price":0,"primary_isbn13":"9780553446753","primary_isbn10":"0553446754","publisher":"Crown","rank":5,"title":"DEAD
+        WAKE","updated_date":"2015-06-19 11:40:19"}]},{"list_id":24,"list_name":"Advice
+        How-To and Miscellaneous","display_name":"Advice, How-To & Miscellaneous","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781607747307.jpeg","books":[{"age_group":"","author":"Marie
+        Kondo","contributor":"by Marie Kondo","contributor_note":"","created_date":"2015-06-18
+        12:00:23","description":"A guide to decluttering by discarding your expendable
+        objects all at once and taking charge of your space.","price":0,"primary_isbn13":"9781607747307","primary_isbn10":"1607747308","publisher":"Ten
+        Speed","rank":1,"title":"THE LIFE-CHANGING MAGIC OF TIDYING UP","updated_date":"2015-06-19
+        11:40:18"},{"age_group":"","author":"Marco Borges","contributor":"by Marco
+        Borges","contributor_note":"","created_date":"2015-06-18 12:00:23","description":"Changing
+        your life through a plant-based diet.","price":0,"primary_isbn13":"9780451474841","primary_isbn10":"0451474848","publisher":"Celebra","rank":2,"title":"THE
+        22-DAY REVOLUTION","updated_date":"2015-06-19 11:40:18"},{"age_group":"","author":"Marshall
+        Goldsmith and Mark Reiter","contributor":"by Marshall Goldsmith and Mark Reiter","contributor_note":"","created_date":"2015-06-18
+        12:00:23","description":"How to resist the tug of habit and embrace change.","price":0,"primary_isbn13":"9780804141239","primary_isbn10":"0804141231","publisher":"Crown
+        Business","rank":3,"title":"TRIGGERS","updated_date":"2015-06-19 11:40:18"},{"age_group":"","author":"Gary
+        Chapman","contributor":"by Gary Chapman","contributor_note":"","created_date":"2015-06-18
+        12:00:23","description":"How to communicate love in a way a spouse will understand
+        \u2014 with quality time, affirmative words, gifts, acts of service, and physical
+        touch.","price":0,"primary_isbn13":"9780802412706","primary_isbn10":"080241270X","publisher":"Northfield","rank":4,"title":"THE
+        FIVE LOVE LANGUAGES","updated_date":"2015-06-19 11:40:18"},{"age_group":"","author":"Melissa
+        Hartwig and Dallas Hartwig","contributor":"by Melissa Hartwig and Dallas Hartwig","contributor_note":"","created_date":"2015-06-18
+        12:00:24","description":"An overview of a 30-day guide to better health and
+        weight loss.","price":0,"primary_isbn13":"9780544609716","primary_isbn10":"0544609719","publisher":"Houghton
+        Mifflin Harcourt","rank":5,"title":"THE WHOLE30","updated_date":"2015-06-19
+        11:40:18"}]},{"list_id":7,"list_name":"Picture Books","display_name":"Children''s
+        Picture Books","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781250009340.jpg","books":[{"age_group":"Ages
+        3 to 5","author":"Jimmy Fallon","contributor":"by Jimmy Fallon. Illustrated
+        by Miguel Ord\u00f3\u00f1ez","contributor_note":"Illustrated by Miguel Ord\u00f3\u00f1ez","created_date":"2015-06-18
+        12:00:15","description":"Animal fathers try to coax a certain word from the
+        mouths of their little ones.","price":0,"primary_isbn13":"9781250009340","primary_isbn10":"1250009340","publisher":"Feiwel
+        & Friends","rank":1,"title":"YOUR BABY''S FIRST WORD WILL BE DADA","updated_date":"2015-06-19
+        11:40:12"},{"age_group":"Ages 3 to 7","author":"Drew Daywalt","contributor":"by
+        Drew Daywalt. Illustrated by Oliver Jeffers","contributor_note":"Illustrated
+        by Oliver Jeffers","created_date":"2015-06-18 12:00:15","description":"Colorful
+        problems arise when Duncan''s crayons revolt.","price":0,"primary_isbn13":"9780399255373","primary_isbn10":"0399255370","publisher":"Philomel","rank":2,"title":"THE
+        DAY THE CRAYONS QUIT","updated_date":"2015-06-19 11:40:12"},{"age_group":"Ages
+        4 to 8","author":"B J Novak","contributor":"by B. J. Novak","contributor_note":"","created_date":"2015-06-18
+        12:00:15","description":"Silly songs and sound effects in a book without images.","price":0,"primary_isbn13":"9780803741713","primary_isbn10":"0803741715","publisher":"Dial","rank":3,"title":"THE
+        BOOK WITH NO PICTURES","updated_date":"2015-06-19 11:40:12"},{"age_group":"Ages
+        2 to 7","author":"Mo Willems","contributor":"by Mo Willems","contributor_note":"","created_date":"2015-06-18
+        12:00:15","description":"Impatient Gerald has to wait for Piggie\u2019s promised
+        surprise.","price":0,"primary_isbn13":"9781423199571","primary_isbn10":"142319957X","publisher":"Hyperion","rank":4,"title":"WAITING
+        IS NOT EASY!","updated_date":"2015-06-19 11:40:12"},{"age_group":"Ages 6 to
+        8","author":"Mo Willems","contributor":"by Mo Willems","contributor_note":"","created_date":"2015-06-18
+        12:00:15","description":"Red-eyed Gerald needs some sleep, or is it Piggie
+        who''s due for a nap?","price":0,"primary_isbn13":"9781484716304","primary_isbn10":"1484716302","publisher":"Hyperion","rank":5,"title":"I
+        WILL TAKE A NAP!","updated_date":"2015-06-19 11:40:12"}]},{"list_id":11,"list_name":"Childrens
+        Middle Grade","display_name":"Children''s Middle Grade","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781484712955.jpg","books":[{"age_group":"Ages
+        9 to 12","author":"Melissa de la Cruz","contributor":"by Melissa de la Cruz","contributor_note":"","created_date":"2015-06-18
+        12:00:18","description":"Children of famous villains band together to retrieve
+        the Dragon\u2019s Eye; a Descendants novel.","price":0,"primary_isbn13":"9781484720974","primary_isbn10":"1484720970","publisher":"Disney
+        Publishing Worldwide","rank":1,"title":"THE ISLE OF THE LOST","updated_date":"2015-06-19
+        11:40:14"},{"age_group":"Ages 8 to 12","author":"R J Palacio","contributor":"by
+        R. J. Palacio","contributor_note":"","created_date":"2015-06-18 12:00:18","description":"A
+        boy with a facial deformity enters a mainstream school.","price":0,"primary_isbn13":"9780375869020","primary_isbn10":"0375869026","publisher":"Knopf
+        Doubleday Publishing","rank":2,"title":"WONDER","updated_date":"2015-06-19
+        11:40:14"},{"age_group":"Ages 8 to 12","author":"Katherine Applegate","contributor":"by
+        Katherine Applegate","contributor_note":"","created_date":"2015-06-18 12:00:18","description":"A
+        gorilla living in a mall meets an elephant.","price":0,"primary_isbn13":"9780061992278","primary_isbn10":"0061992275","publisher":"HarperCollins
+        Publishers","rank":3,"title":"THE ONE AND ONLY IVAN","updated_date":"2015-06-19
+        11:40:14"},{"age_group":"Ages 10 to 14","author":"Bill O''Reilly","contributor":"by
+        Bill O''Reilly","contributor_note":"","created_date":"2015-06-18 12:00:18","description":"An
+        account of the collapse of the Third Reich and the death of the Nazi leader.","price":0,"primary_isbn13":"9781627793964","primary_isbn10":"1627793968","publisher":"Holt","rank":4,"title":"HITLER''S
+        LAST DAYS","updated_date":"2015-06-19 11:40:14"},{"age_group":"Ages 10 to
+        14","author":"Holly Goldberg Sloan","contributor":"by Holly Goldberg Sloan","contributor_note":"","created_date":"2015-06-18
+        12:00:18","description":"Willow struggles to adjust after the death of her
+        adoptive parents.","price":0,"primary_isbn13":"9780142422861","primary_isbn10":"014242286X","publisher":"Penguin
+        Group","rank":5,"title":"COUNTING BY 7s","updated_date":"2015-06-19 11:40:14"}]},{"list_id":12,"list_name":"Young
+        Adult","display_name":"Young Adult","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780142414934.jpg","books":[{"age_group":"Ages
+        14 and up","author":"John Green","contributor":"by John Green","contributor_note":"","created_date":"2015-06-18
+        12:00:19","description":"After a night of mischief, the girl Quentin loves
+        disappears.","price":0,"primary_isbn13":"9780142414934","primary_isbn10":"014241493X","publisher":"Penguin
+        Group","rank":1,"title":"PAPER TOWNS","updated_date":"2015-06-19 11:40:14"},{"age_group":"Ages
+        14 to 17","author":"Jesse Andrews","contributor":"by Jesse Andrews","contributor_note":"","created_date":"2015-06-18
+        12:00:19","description":"A high school senior befriends a girl with cancer.","price":0,"primary_isbn13":"9781419719608","primary_isbn10":"None","publisher":"Abrams
+        Books","rank":2,"title":"ME AND EARL AND THE DYING GIRL","updated_date":"2015-06-19
+        11:40:14"},{"age_group":"Ages 14 to 17","author":"John Green","contributor":"by
+        John Green","contributor_note":"","created_date":"2015-06-18 12:00:19","description":"A
+        boy finds excitement when he meets a girl named Alaska.","price":0,"primary_isbn13":"9780142402511","primary_isbn10":"0142402516","publisher":"Penguin
+        Group","rank":3,"title":"LOOKING FOR ALASKA","updated_date":"2015-06-19 11:40:14"},{"age_group":"Ages
+        14 and up","author":"Markus Zusak","contributor":"by Markus Zusak","contributor_note":"","created_date":"2015-06-18
+        12:00:19","description":"A girl copes with life under the Nazis by stealing
+        books.","price":0,"primary_isbn13":"9780375842207","primary_isbn10":"0375842209","publisher":"Knopf
+        Doubleday Publishing","rank":4,"title":"THE BOOK THIEF","updated_date":"2015-06-19
+        11:40:14"},{"age_group":"Ages 12 and up","author":"Sophie Kinsella","contributor":"by
+        Sophie Kinsella","contributor_note":"","created_date":"2015-06-18 12:00:19","description":"Romance
+        proves restorative for a bullied British teenager grappling with an anxiety
+        disorder.","price":0,"primary_isbn13":"9780553536522","primary_isbn10":"0553536524","publisher":"Random
+        House Publishing Group","rank":5,"title":"FINDING AUDREY","updated_date":"2015-06-19
+        11:40:14"}]},{"list_id":10,"list_name":"Series Books","display_name":"Children''s
+        Series","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781442487673.jpg","books":[{"age_group":"Ages
+        9 to 13","author":"Rachel Ren\u00e9e Russell","contributor":"by Rachel Ren\u00e9e
+        Russell","contributor_note":"","created_date":"2015-06-18 12:00:17","description":"Nikki
+        Maxwell navigates the halls of middle school.","price":0,"primary_isbn13":"9781481456982","primary_isbn10":"None","publisher":"Simon
+        & Schuster","rank":1,"title":"DORK DIARIES","updated_date":"2015-06-19 11:40:13"},{"age_group":"Ages
+        12 and up","author":"James Dashner","contributor":"by James Dashner","contributor_note":"","created_date":"2015-06-18
+        12:00:17","description":"Amnesiac teenagers endure a series of trials.","price":0,"primary_isbn13":"9780385738767","primary_isbn10":"0385738765","publisher":"Random
+        House Publishing","rank":2,"title":"THE MAZE RUNNER","updated_date":"2015-06-19
+        11:40:13"},{"age_group":"Ages 13 and up","author":"Kiera Cass","contributor":"by
+        Kiera Cass","contributor_note":"","created_date":"2015-06-18 12:00:17","description":"A
+        competition offers girls a chance to escape a life laid out since birth.","price":0,"primary_isbn13":"9780062349873","primary_isbn10":"0062349872","publisher":"HarperTeen","rank":3,"title":"THE
+        SELECTION","updated_date":"2015-06-19 11:40:13"},{"age_group":"Ages 10 and
+        up","author":"J K Rowling","contributor":"by J. K. Rowling","contributor_note":"","created_date":"2015-06-18
+        12:00:17","description":"A wizard hones his conjuring skills in the service
+        of fighting evil.","price":0,"primary_isbn13":"9780590353427","primary_isbn10":"059035342X","publisher":"Scholastic","rank":4,"title":"HARRY
+        POTTER","updated_date":"2015-06-19 11:40:13"},{"age_group":"Ages 9 to 12","author":"Jeff
+        Kinney","contributor":"written and illustrated by Jeff Kinney","contributor_note":"written
+        and illustrated by Jeff Kinney","created_date":"2015-06-18 12:00:17","description":"The
+        travails and challenges of adolescence, captured in cartoons.","price":0,"primary_isbn13":"9781419711893","primary_isbn10":"141971189X","publisher":"Abrams
+        Books","rank":5,"title":"DIARY OF A WIMPY KID","updated_date":"2015-06-19
+        11:40:13"}]},{"list_id":20,"list_name":"Hardcover Graphic Books","display_name":"Hardcover
+        Graphic Books","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781401216672.jpg","books":[{"age_group":"","author":"Alan
+        Moore and Brian Bolland","contributor":"by Alan Moore and Brian Bolland","contributor_note":"","created_date":"2015-06-18
+        12:00:22","description":"This critically acclaimed story from 1988 offers
+        a possible origin for the Joker.","price":0,"primary_isbn13":"9781401216672","primary_isbn10":"1401216676","publisher":"DC
+        Comics","rank":1,"title":"BATMAN: THE KILLING JOKE","updated_date":"2015-06-19
+        11:40:16"},{"age_group":"","author":"Roz Chast","contributor":"by Roz Chast","contributor_note":"","created_date":"2015-06-18
+        12:00:22","description":"In this memoir, the cartoonist examines her parents
+        from their early days as mother and father to their later years facing old
+        age and poor health.","price":0,"primary_isbn13":"9781608198061","primary_isbn10":"1608198065","publisher":"Bloomsbury","rank":2,"title":"CAN''T
+        WE TALK ABOUT SOMETHING MORE PLEASANT?","updated_date":"2015-06-19 11:40:16"},{"age_group":"","author":"Nathan
+        Hale","contributor":"by Nathan Hale","contributor_note":"","created_date":"2015-06-18
+        12:00:22","description":"Harriet Tubman\u2019s escape from slavery is the
+        latest subject to be covered in this nonfiction series.","price":0,"primary_isbn13":"9781419715365","primary_isbn10":"1419715364","publisher":"Abrams","rank":3,"title":"NATHAN
+        HALE\u2019S HAZARDOUS TALES: THE UNDERGROUND ABDUCTOR","updated_date":"2015-06-19
+        11:40:16"},{"age_group":"","author":"Scott McCloud","contributor":"by Scott
+        McCloud","contributor_note":"","created_date":"2015-06-18 12:00:22","description":"A
+        young artist in a creative and financial rut makes a pact with Death where
+        he is granted incredible powers, but has only 200 days to use them before
+        he dies.","price":0,"primary_isbn13":"9781596435735","primary_isbn10":"1596435739","publisher":"First
+        Second","rank":4,"title":"THE SCULPTOR","updated_date":"2015-06-19 11:40:16"},{"age_group":"","author":"Sydney
+        Padua","contributor":"by Sydney Padua","contributor_note":"","created_date":"2015-06-18
+        12:00:22","description":"This alternate history tale imagines a world where
+        the mathematicians Charles Babbage and Ada Lovelace are able to build a mechanical,
+        steam\u2013powered computer in the 1840s.","price":0,"primary_isbn13":"9780307908278","primary_isbn10":"0307908275","publisher":"Pantheon","rank":5,"title":"THE
+        THRILLING ADVENTURES OF LOVELACE AND BABBAGE","updated_date":"2015-06-19 11:40:16"}]},{"list_id":21,"list_name":"Paperback
+        Graphic Books","display_name":"Paperback Graphic Books","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780545326995.jpg","books":[{"age_group":"","author":"Raina
+        Telgemeier","contributor":"by Raina Telgemeier","contributor_note":"","created_date":"2015-06-18
+        12:00:22","description":"Middle-school drama becomes much more intense when
+        Callie becomes the stage manager for a production of \"Moon Over Mississippi.\"","price":0,"primary_isbn13":"9780545326995","primary_isbn10":"0545326990","publisher":"Scholastic","rank":1,"title":"DRAMA","updated_date":"2015-06-19
+        11:40:17"},{"age_group":"","author":"Raina Telgemeier","contributor":"by Raina
+        Telgemeier","contributor_note":"","created_date":"2015-06-18 12:00:22","description":"Raina
+        experiences braces, an earthquake, boy troubles, frenemies and other plagues
+        of the sixth grade.","price":0,"primary_isbn13":"9780545132060","primary_isbn10":"0545132061","publisher":"Scholastic","rank":2,"title":"SMILE","updated_date":"2015-06-19
+        11:40:17"},{"age_group":"","author":"Alison Bechdel","contributor":"by Alison
+        Bechdel","contributor_note":"","created_date":"2015-06-18 12:00:22","description":"In
+        her first memoir, the author chronicles the life and death of her father,
+        a closeted gay man and funeral director.","price":0,"primary_isbn13":"9780618871711","primary_isbn10":"0618871713","publisher":"Houghton
+        Mifflin Harcourt","rank":3,"title":"FUN HOME","updated_date":"2015-06-19 11:40:17"},{"age_group":"","author":"Cece
+        Bell","contributor":"by Cece Bell","contributor_note":"","created_date":"2015-06-18
+        12:00:22","description":"A young girl experiences hearing loss and receives
+        the Phonic Ear, a bulky hearing aid that comes with a mischievous benefit:
+        She can hear her teacher no matter where she goes in school.","price":0,"primary_isbn13":"9781419712173","primary_isbn10":"1419712179","publisher":"Amulet
+        Books","rank":4,"title":"EL DEAFO","updated_date":"2015-06-19 11:40:17"},{"age_group":"","author":"Robert
+        Kirkman and Charlie Adlard","contributor":"by Robert Kirkman and Charlie Adlard","contributor_note":"","created_date":"2015-06-18
+        12:00:22","description":"How will the relatively peaceful communities cope
+        with a new threat?","price":0,"primary_isbn13":"9781632152589","primary_isbn10":"1632152584","publisher":"Image
+        Comics","rank":5,"title":"THE WALKING DEAD, VOL. 23","updated_date":"2015-06-19
+        11:40:17"}]},{"list_id":22,"list_name":"Manga","display_name":"Manga","updated":"WEEKLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781421579757.jpg","books":[{"age_group":"","author":"Masashi
+        Kishimoto","contributor":"by Masashi Kishimoto","contributor_note":"","created_date":"2015-06-18
+        12:00:23","description":"As this series barrels toward its conclusion, Naruto
+        is out of commission, forcing Guy to face Madara.","price":0,"primary_isbn13":"9781421579757","primary_isbn10":"1421579758","publisher":"VIZ
+        Media","rank":1,"title":"NARUTO, VOL. 70","updated_date":"2015-06-19 11:40:17"},{"age_group":"","author":"Jinsei
+        Katoka and Kazuma Kondou","contributor":"by Jinsei Katoka and Kazuma Kondou","contributor_note":"","created_date":"2015-06-18
+        12:00:23","description":"A middle\u2013school student is framed for the murder
+        of his classmates and then sentenced to a prison that doubles as a demented
+        theme park.","price":0,"primary_isbn13":"9781421564173","primary_isbn10":"1421564173","publisher":"VIZ
+        Media","rank":2,"title":"DEADMAN WONDERLAND, VOL. 9","updated_date":"2015-06-19
+        11:40:17"},{"age_group":"","author":"Hiro Mashima","contributor":"by Hiro
+        Mashima","contributor_note":"","created_date":"2015-06-18 12:00:23","description":"The
+        dragons slayers Rogue and Sting join the fray against Mard Geer, who reveals
+        his true, demonic form.","price":0,"primary_isbn13":"9781612628196","primary_isbn10":"1612628192","publisher":"Kodansha
+        Comics","rank":3,"title":"FAIRY TAIL, VOL. 48","updated_date":"2015-06-19
+        11:40:17"},{"age_group":"","author":"Yusei Matsui","contributor":"by Yusei
+        Matsui","contributor_note":"","created_date":"2015-06-18 12:00:23","description":"The
+        students of class 3\u2013E have only one assignment: kill the teacher! Of
+        course, when that teacher is also a supremely powerful being, it is easier
+        said than done.","price":0,"primary_isbn13":"9781421576107","primary_isbn10":"1421576104","publisher":"VIZ
+        Media","rank":4,"title":"ASSASSINATION CLASSROOM, VOL. 4","updated_date":"2015-06-19
+        11:40:17"},{"age_group":"","author":"Julietta Suzuki","contributor":"by Julietta
+        Suzuki","contributor_note":"","created_date":"2015-06-18 12:00:23","description":"Nanami
+        and Tomoe go on a school trip to Okinawa, where their newly\u2013found romantic
+        bliss is shattered.","price":0,"primary_isbn13":"9781421579702","primary_isbn10":"1421579707","publisher":"VIZ
+        Media","rank":5,"title":"KAMISAMA KISS, VOL. 18","updated_date":"2015-06-19
+        11:40:17"}]},{"list_id":504,"list_name":"Animals","display_name":"Animals","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780802123411.jpeg","books":[{"age_group":"","author":"Helen
+        Macdonald","contributor":"by Helen Macdonald","contributor_note":"","created_date":"2015-06-05
+        11:00:21","description":"Overwhelmed by her father\u2019s death, a British
+        woman decides to raise a goshawk, a bird that is fierce and notoriously difficult
+        to tame.","price":0,"primary_isbn13":"9780802123411","primary_isbn10":"0802123414","publisher":"Grove\/Atlantic","rank":1,"title":"H
+        IS FOR HAWK","updated_date":"2015-06-05 11:00:21"},{"age_group":"","author":"Robert
+        Weintraub","contributor":"by Robert Weintraub","contributor_note":"","created_date":"2015-06-05
+        11:00:21","description":"The survival and friendship of a man and the dog
+        he met in a World War II internment camp in the Pacific; the purebred pointer,
+        \"Judy,\" is the war''s only official canine POW.","price":0,"primary_isbn13":"9780316337069","primary_isbn10":"0316337064","publisher":"Little,
+        Brown","rank":2,"title":"NO BETTER FRIEND","updated_date":"2015-06-05 11:00:21"},{"age_group":"","author":"Cat
+        Warren","contributor":"by Cat Warren","contributor_note":"","created_date":"2015-06-05
+        11:00:21","description":"Canine powers of scent detection and the hidden things
+        dogs can sniff out with their noses: truffles, bedbugs, bombs, drugs, disease
+        and death.","price":0,"primary_isbn13":"9781451667325","primary_isbn10":"1451667329","publisher":"Touchstone","rank":3,"title":"WHAT
+        THE DOG KNOWS","updated_date":"2015-06-05 11:00:21"},{"age_group":"","author":"Tony
+        Angell","contributor":"written and illustrated by Tony Angell","contributor_note":"written
+        and illustrated by Tony Angell ","created_date":"2015-06-05 11:00:21","description":"An
+        artist-naturalist chronicles his 25 years observing the habits of the pairs
+        of western screech owls who have come to live in a nesting box outside the
+        window of his forest home.","price":0,"primary_isbn13":"9780300203448","primary_isbn10":"0300203446","publisher":"Yale
+        University Press","rank":4,"title":"THE HOUSE OF OWLS","updated_date":"2015-06-05
+        11:00:21"},{"age_group":"","author":"Vicki Constantine Croke","contributor":"by
+        Vicki Constantine Croke","contributor_note":"","created_date":"2015-06-05
+        11:00:21","description":"A portrait of an Englishman known as Elephant Bill
+        who supervised, and came to protect, the elephants employed by a teak company
+        in Burma, and trained them to provide assistance during World War II.","price":0,"primary_isbn13":"9780812981650","primary_isbn10":"0812981650","publisher":"Random
+        House","rank":5,"title":"ELEPHANT COMPANY","updated_date":"2015-06-05 11:00:21"}]},{"list_id":532,"list_name":"Business
+        Books","display_name":"Business","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780062301260.jpg","books":[{"age_group":"","author":"Ashlee
+        Vance","contributor":"by Ashlee Vance","contributor_note":"","created_date":"2015-06-16
+        00:00:12","description":"A technology writer follows Musk\u2019s life from
+        his difficult South African childhood to his involvement in Internet start-ups
+        like the rocket company SpaceX, the electric-car company Tesla and the solar
+        power installation company Solar City.","price":0,"primary_isbn13":"9780062301239","primary_isbn10":"0062301233","publisher":"Ecco\/HarperCollins","rank":1,"title":"ELON
+        MUSK","updated_date":"2015-06-16 00:00:12"},{"age_group":"","author":"Laurence
+        J Kotlikoff, Philip Moeller and Paul Solman","contributor":"by Laurence J.
+        Kotlikoff, Philip Moeller and Paul Solman","contributor_note":"","created_date":"2015-06-16
+        00:00:12","description":"A guide to deciding when to claim Social Security
+        benefits and to getting all you\u2019re eligible for\u2028 when you do.","price":0,"primary_isbn13":"9781476772295","primary_isbn10":"1476772290","publisher":"Simon
+        & Schuster","rank":2,"title":"GET WHAT''S YOURS","updated_date":"2015-06-16
+        00:00:12"},{"age_group":"","author":"Steven D Levitt and Stephen J Dubner","contributor":"by
+        Steven D. Levitt and Stephen J. Dubner","contributor_note":"","created_date":"2015-06-16
+        00:00:12","description":"Celebrating ten years of \u201cFreakonomics\u201d
+        with a collection of curated economic blog posts from its companion website.","price":0,"primary_isbn13":"9780062385321","primary_isbn10":"0062385321","publisher":"Morrow","rank":3,"title":"WHEN
+        TO ROB A BANK","updated_date":"2015-06-16 00:00:12"},{"age_group":"","author":"Malcolm
+        Gladwell","contributor":"by Malcolm Gladwell","contributor_note":"","created_date":"2015-06-16
+        00:00:12","description":"Why some people succeed \u2014 it has to do with
+        luck and opportunities as well as talent.","price":0,"primary_isbn13":"9780316017930","primary_isbn10":"0316017930","publisher":"Back
+        Bay\/Little, Brown","rank":4,"title":"OUTLIERS","updated_date":"2015-06-16
+        00:00:12"},{"age_group":"","author":"Charles Duhigg","contributor":"by Charles
+        Duhigg","contributor_note":"","created_date":"2015-06-16 00:00:12","description":"A
+        Times reporter\u2019s account of the science behind how we form, and break,
+        habits.","price":0,"primary_isbn13":"9780812981605","primary_isbn10":"081298160X","publisher":"Random
+        House","rank":5,"title":"THE POWER OF HABIT","updated_date":"2015-06-16 00:00:12"}]},{"list_id":541,"list_name":"Celebrities","display_name":"Celebrities","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781101903834.jpg","books":[{"age_group":"","author":"Melissa
+        Rivers","contributor":"by Melissa Rivers","contributor_note":"","created_date":"2015-06-05
+        11:20:20","description":"A memoir of life, often uproarious, with the comedian
+        Joan Rivers, written by her daughter.","price":0,"primary_isbn13":"9781101903827","primary_isbn10":"1101903821","publisher":"Crown
+        Archetype","rank":1,"title":"THE BOOK OF JOAN","updated_date":"2015-06-05
+        11:20:20"},{"age_group":"","author":"Willie Nelson with David Ritz","contributor":"by
+        Willie Nelson with David Ritz","contributor_note":"","created_date":"2015-06-05
+        11:20:20","description":"The country music star discusses his life\u2019s
+        journey, from selling encyclopedias to professional fame.","price":0,"primary_isbn13":"9780316403559","primary_isbn10":"0316403555","publisher":"Little,
+        Brown","rank":2,"title":"IT''S A LONG STORY","updated_date":"2015-06-05 11:20:20"},{"age_group":"","author":"Tom
+        Brokaw","contributor":"by Tom Brokaw","contributor_note":"","created_date":"2015-06-05
+        11:20:20","description":"The journalist describes the year following his diagnosis
+        with multiple myeloma.","price":0,"primary_isbn13":"9781400069699","primary_isbn10":"1400069696","publisher":"Random
+        House","rank":3,"title":"A LUCKY LIFE INTERRUPTED","updated_date":"2015-06-05
+        11:20:20"},{"age_group":"","author":"Oliver Sacks","contributor":"by Oliver
+        Sacks","contributor_note":"","created_date":"2015-06-05 11:20:20","description":"A
+        memoir by the neurologist and writer, the author of \u201cAwakenings\u201d
+        and many other books.","price":0,"primary_isbn13":"9780385352543","primary_isbn10":"0385352549","publisher":"Knopf","rank":4,"title":"ON
+        THE MOVE","updated_date":"2015-06-05 11:20:20"},{"age_group":"","author":"Bill
+        Kreutzmann with Benjy Eisen","contributor":"by Bill Kreutzmann with Benjy
+        Eisen","contributor_note":"","created_date":"2015-06-05 11:20:20","description":"An
+        account of three wild decades of drumming for the Grateful Dead.","price":0,"primary_isbn13":"9781250033796","primary_isbn10":"1250033799","publisher":"St.
+        Martin''s","rank":5,"title":"DEAL","updated_date":"2015-06-05 11:20:20"}]},{"list_id":551,"list_name":"Crime
+        and Punishment","display_name":"Crime and Punishment","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780698178953.jpg","books":[{"age_group":"","author":"Amanda
+        Berry and Gina DeJesus with Mary Jordan and Kevin Sullivan","contributor":"by
+        Amanda Berry and Gina DeJesus with Mary Jordan and Kevin Sullivan","contributor_note":"","created_date":"2015-06-05
+        16:00:12","description":"Two of the women abducted, raped and abused by a
+        Cleveland school bus driver until they escaped after 10 years tell their story.
+        \n","price":0,"primary_isbn13":"9780698178953","primary_isbn10":"None","publisher":"Penguin","rank":1,"title":"HOPE","updated_date":"2015-06-05
+        16:00:12"},{"age_group":"","author":"Jon Krakauer","contributor":"by Jon Krakauer","contributor_note":"","created_date":"2015-06-05
+        16:00:12","description":"The author of \u201cInto the Wild\u201d discusses
+        cases of acquaintance rape in Missoula, Mont., home of the University of Montana.","price":0,"primary_isbn13":"9780385538732","primary_isbn10":"0385538731","publisher":"Doubleday","rank":2,"title":"MISSOULA","updated_date":"2015-06-05
+        16:00:12"},{"age_group":"","author":"Michelle Knight with Michelle Burford","contributor":"by
+        Michelle Knight with Michelle Burford","contributor_note":"","created_date":"2015-06-05
+        16:00:12","description":"The story of a woman kidnapped in Cleveland in 2002,\nthen
+        tortured, who escaped in 2013.","price":0,"primary_isbn13":"9781602862579","primary_isbn10":"None","publisher":"Perseus","rank":3,"title":"FINDING
+        ME","updated_date":"2015-06-05 16:00:12"},{"age_group":"","author":"Erik Larson","contributor":"by
+        Erik Larson","contributor_note":"","created_date":"2015-06-05 16:00:12","description":"A
+        story of how an architect and a serial killer were linked by the World''s
+        Fair of 1893.","price":0,"primary_isbn13":"9780375725609","primary_isbn10":"0375725601","publisher":"Vintage","rank":4,"title":"THE
+        DEVIL IN THE WHITE CITY","updated_date":"2015-06-05 16:00:12"},{"age_group":"","author":"Piper
+        Kerman","contributor":"by Piper Kerman","contributor_note":"","created_date":"2015-06-05
+        16:00:12","description":"A memoir by a Brooklyn woman whose relationship with
+        a drug runner gets her sentenced to a year in prison. The basis for the Netflix
+        series, \noriginally published in 2010.","price":0,"primary_isbn13":"9780385523394","primary_isbn10":"0385523394","publisher":"Spiegel
+        & Grau","rank":5,"title":"ORANGE IS THE NEW BLACK","updated_date":"2015-06-05
+        16:00:12"}]},{"list_id":548,"list_name":"Culture","display_name":"Culture","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780984504176.jpeg","books":[{"age_group":"","author":"Laura
+        Ingalls Wilder","contributor":"by Laura Ingalls Wilder","contributor_note":"","created_date":"2015-06-05
+        11:00:18","description":"The writer\u2019s autobiography, the source of her
+        Little House on the Prairie books, completed in 1930 and never published,
+        is annotated by a biographer.","price":0,"primary_isbn13":"9780984504176","primary_isbn10":"0984504176","publisher":"South
+        Dakota State Historical Society Press","rank":1,"title":"PIONEER GIRL","updated_date":"2015-06-10
+        19:00:10"},{"age_group":"","author":"Sally Mann","contributor":"by Sally Mann","contributor_note":"","created_date":"2015-06-05
+        11:00:18","description":"The photographer\u2019s thoughts on art, photography,
+        family and the South.","price":0,"primary_isbn13":"9780316247764","primary_isbn10":"0316247766","publisher":"Little,
+        Brown","rank":2,"title":"HOLD STILL","updated_date":"2015-06-10 19:00:10"},{"age_group":"","author":"Mary
+        Norris","contributor":"by Mary Norris","contributor_note":"","created_date":"2015-06-05
+        11:00:18","description":"A memoir of a career in the New Yorker''s storied
+        copy department, along with grammar advice.","price":0,"primary_isbn13":"9780393240184","primary_isbn10":"0393240185","publisher":"Norton","rank":3,"title":"BETWEEN
+        YOU & ME","updated_date":"2015-06-10 19:00:10"},{"age_group":"","author":"Anne-Marie
+        O''Connor","contributor":"by Anne-Marie O''Connor","contributor_note":"","created_date":"2015-06-05
+        11:00:18","description":"Gustav Klimt''s 1907 portrait of Viennese socialite
+        Adele Bloch-Bauer, its theft by Nazis during World War II and its subsequent
+        lengthy disputed ownership.","price":0,"primary_isbn13":"9781101873120","primary_isbn10":"1101873124","publisher":"Vintage","rank":4,"title":"THE
+        LADY IN GOLD","updated_date":"2015-06-10 19:00:10"},{"age_group":"","author":"Roxane
+        Gay","contributor":"by Roxane Gay","contributor_note":"","created_date":"2015-06-05
+        11:00:18","description":"A collection of essays on race, gender, politics
+        and \"Sweet Valley High.\"","price":0,"primary_isbn13":"9780062282712","primary_isbn10":"0062282719","publisher":"Harper
+        Perennial\/HarperCollins","rank":5,"title":"BAD FEMINIST","updated_date":"2015-06-10
+        19:00:10"}]},{"list_id":539,"list_name":"Education","display_name":"Education","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780385538749.jpg","books":[{"age_group":"","author":"Jon
+        Krakauer","contributor":"by Jon Krakauer","contributor_note":"","created_date":"2015-06-05
+        11:40:11","description":"The author of \u201cInto the Wild\u201d discusses
+        cases of acquaintance rape in Missoula, Mont., home of the University of Montana.","price":0,"primary_isbn13":"9780385538732","primary_isbn10":"0385538731","publisher":"Doubleday","rank":1,"title":"MISSOULA","updated_date":"2015-06-05
+        11:40:11"},{"age_group":"","author":"J K Rowling","contributor":"by J. K.
+        Rowling","contributor_note":"","created_date":"2015-06-05 11:40:11","description":"J.K.
+        Rowling''s Harvard commencement address on embracing failure and imagination.","price":0,"primary_isbn13":"9780316369152","primary_isbn10":"0316369152","publisher":"Little,
+        Brown","rank":2,"title":"VERY GOOD LIVES","updated_date":"2015-06-05 11:40:11"},{"age_group":"","author":"Mary
+        Norris","contributor":"by Mary Norris","contributor_note":"","created_date":"2015-06-05
+        11:40:12","description":"A memoir of a career in the New Yorker''s storied
+        copy department, along with grammar advice.","price":0,"primary_isbn13":"9780393240184","primary_isbn10":"0393240185","publisher":"Norton","rank":3,"title":"BETWEEN
+        YOU & ME","updated_date":"2015-06-05 11:40:12"},{"age_group":"","author":"Thomas
+        C Foster","contributor":"by Thomas C. Foster","contributor_note":"","created_date":"2015-06-05
+        11:40:12","description":"An introduction to the hidden truths of literature
+        that decodes literary basics, including symbols, themes and context.","price":0,"primary_isbn13":"9780062301673","primary_isbn10":"0062301675","publisher":"Harper
+        Perennial","rank":4,"title":"HOW TO READ LITERATURE LIKE A PROFESSOR","updated_date":"2015-06-05
+        11:40:12"},{"age_group":"","author":"Harlan Cohen","contributor":"by Harlan
+        Cohen","contributor_note":"","created_date":"2015-06-05 11:40:12","description":"A
+        primer of issues one might typically expect to encounter during college dormitory
+        life.","price":0,"primary_isbn13":"9781492613329","primary_isbn10":"1492613320","publisher":"Sourcebooks","rank":5,"title":"THE
+        NAKED ROOMMATE","updated_date":"2015-06-05 11:40:12"}]},{"list_id":545,"list_name":"Espionage","display_name":"Espionage","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781455585687.jpg","books":[{"age_group":"","author":"Michael
+        Morell with Bill Harlow","contributor":"by Michael Morell with Bill Harlow","contributor_note":"","created_date":"2015-06-12
+        15:20:14","description":"A high-level C.I.A. officer assesses the agency\u2019s
+        counterterrorism successes and failures.","price":0,"primary_isbn13":"9781455585663","primary_isbn10":"1455585661","publisher":"Twelve","rank":1,"title":"THE
+        GREAT WAR OF OUR TIME","updated_date":"2015-06-12 15:20:14"},{"age_group":"","author":"Andrew
+        Hodges","contributor":"by Andrew Hodges","contributor_note":"","created_date":"2015-06-12
+        15:20:14","description":"The presiding mathematician and decoding force at
+        Bletchley Park, the center that cracked the German Enigma code; the inspiration
+        for the film \"The Imitation Game.\"","price":0,"primary_isbn13":"9780691164724","primary_isbn10":"069116472X","publisher":"Princeton
+        University","rank":2,"title":"ALAN TURING: THE ENIGMA","updated_date":"2015-06-12
+        15:20:14"},{"age_group":"","author":"Bill Browder","contributor":"by Bill
+        Browder","contributor_note":"","created_date":"2015-06-12 15:20:14","description":"A
+        successful American hedge fund manager in Russia was expelled by kleptocrats
+        who then seized his property.","price":0,"primary_isbn13":"9781476755755","primary_isbn10":"1476755752","publisher":"Simon
+        & Schuster","rank":3,"title":"RED NOTICE","updated_date":"2015-06-12 15:20:14"},{"age_group":"","author":"John
+        W Whitehead","contributor":"by John W. Whitehead","contributor_note":"","created_date":"2015-06-12
+        15:20:14","description":"A Constitutional attorney describes a nation on the
+        verge of undermining the basic freedoms guaranteed to the citizenry in the
+        Constitution.","price":0,"primary_isbn13":"9781590793091","primary_isbn10":"1590793099","publisher":"Select
+        Books","rank":4,"title":"BATTLEFIELD AMERICA","updated_date":"2015-06-12 15:20:14"},{"age_group":"","author":"Bryan
+        Burrough","contributor":"by Bryan Burrough","contributor_note":"","created_date":"2015-06-12
+        15:20:14","description":"Domestic terrorism and the radical underground movement
+        in 1970s-era America.","price":0,"primary_isbn13":"9781594204296","primary_isbn10":"1594204292","publisher":"Penguin
+        Press","rank":5,"title":"DAYS OF RAGE","updated_date":"2015-06-12 15:20:14"}]},{"list_id":555,"list_name":"Expeditions
+        Disasters and Adventures","display_name":"Expeditions, Disasters and Adventures","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781476728742.jpeg","books":[{"age_group":"","author":"David
+        McCullough","contributor":"by David McCullough","contributor_note":"","created_date":"2015-06-12
+        15:00:14","description":"The story of the bicycle mechanics from Ohio who
+        ushered in the age of flight.","price":0,"primary_isbn13":"9781476728742","primary_isbn10":"1476728747","publisher":"Simon
+        & Schuster","rank":1,"title":"THE WRIGHT BROTHERS","updated_date":"2015-06-12
+        15:00:14"},{"age_group":"","author":"Erik Larson","contributor":"by Erik Larson","contributor_note":"","created_date":"2015-06-12
+        15:00:14","description":"The last voyage of the Lusitania, by the author of
+        \"The Devil in the White City.\"","price":0,"primary_isbn13":"9780307408860","primary_isbn10":"0307408868","publisher":"Crown","rank":2,"title":"DEAD
+        WAKE","updated_date":"2015-06-12 15:00:14"},{"age_group":"","author":"Jon
+        Krakauer","contributor":"by Jon Krakauer","contributor_note":"","created_date":"2015-06-12
+        15:00:14","description":"A man''s obsession with the wilderness ends in tragedy.","price":0,"primary_isbn13":"9780385486804","primary_isbn10":"0385486804","publisher":"Anchor","rank":3,"title":"INTO
+        THE WILD","updated_date":"2015-06-12 15:00:14"},{"age_group":"","author":"Martin
+        Dugard","contributor":"by Martin Dugard","contributor_note":"","created_date":"2015-06-12
+        15:00:14","description":"The mid-1860s explorations of journalist, Henry Morgan
+        Stanley, and missionary Doctor David Livingstone, and their memorable intersection.","price":0,"primary_isbn13":"9780385504522","primary_isbn10":"0385504527","publisher":"Broadway","rank":4,"title":"INTO
+        AFRICA","updated_date":"2015-06-12 15:00:14"},{"age_group":"","author":"Peter
+        Stark","contributor":"by Peter Stark","contributor_note":"","created_date":"2015-06-12
+        15:00:14","description":"John Jacob Astor and Thomas Jefferson''s lost Pacific
+        empire.","price":0,"primary_isbn13":"9780062218308","primary_isbn10":"0062218301","publisher":"HarperCollins","rank":5,"title":"ASTORIA","updated_date":"2015-06-12
+        15:00:14"}]},{"list_id":540,"list_name":"Family","display_name":"Family","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780761148579.jpg","books":[{"age_group":"","author":"Heidi
+        Murkoff and Sharon Mazel","contributor":"by Heidi Murkoff and Sharon Mazel","contributor_note":"","created_date":"2015-06-05
+        12:00:11","description":"Advice for parents-to-be.","price":0,"primary_isbn13":"9780761148579","primary_isbn10":"0761148574","publisher":"Workman","rank":1,"title":"WHAT
+        TO EXPECT WHEN YOU''RE EXPECTING","updated_date":"2015-06-05 12:00:11"},{"age_group":"","author":"Helen
+        Macdonald","contributor":"by Helen Macdonald","contributor_note":"","created_date":"2015-06-05
+        12:00:11","description":"Overwhelmed by her father\u2019s death, a British
+        woman decides to raise a goshawk, a bird that is fierce and notoriously difficult
+        to tame.","price":0,"primary_isbn13":"9780802123411","primary_isbn10":"0802123414","publisher":"Grove\/Atlantic","rank":2,"title":"H
+        IS FOR HAWK","updated_date":"2015-06-05 12:00:11"},{"age_group":"","author":"Jennifer
+        Arnold and Bill Klein","contributor":"by Jennifer Arnold and Bill Klein","contributor_note":"","created_date":"2015-06-05
+        12:00:11","description":"The stars of TLC\u2019s \u201cThe Little Couple\u201d
+        offer a behind-the-scenes account of their relationship, their family and
+        their professional lives.","price":0,"primary_isbn13":"9781476794709","primary_isbn10":"1476794707","publisher":"Howard
+        Books","rank":3,"title":"LIFE IS SHORT (NO PUN INTENDED)","updated_date":"2015-06-05
+        12:00:11"},{"age_group":"","author":"Adam Mansbach","contributor":"by Adam
+        Mansbach. Illustrated by Ricardo Cort\u00e9s","contributor_note":"Illustrated
+        by Ricardo Cort\u00e9s  ","created_date":"2015-06-05 12:00:11","description":"A
+        children''s book parody for tired parents.","price":0,"primary_isbn13":"9781617750250","primary_isbn10":"1617750255","publisher":"Akashic
+        Books","rank":4,"title":"GO THE F**K TO SLEEP","updated_date":"2015-06-05
+        12:00:11"},{"age_group":"","author":"Jeannette Walls","contributor":"by Jeannette
+        Walls","contributor_note":"","created_date":"2015-06-05 12:00:11","description":"The
+        author recalls a bizarre childhood during which she was constantly moved from
+        place to place.","price":0,"primary_isbn13":"9780743247542","primary_isbn10":"074324754X","publisher":"Scribner","rank":5,"title":"THE
+        GLASS CASTLE","updated_date":"2015-06-05 12:00:11"}]},{"list_id":557,"list_name":"Fashion
+        Manners and Customs","display_name":"Fashion, Manners and Customs","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780062305213.jpg","books":[{"age_group":"","author":"Kate
+        Andersen Brower","contributor":"by Kate Andersen Brower","contributor_note":"","created_date":"2015-06-05
+        11:00:20","description":"Fifty years of White House style and lore, based
+        on interviews with butlers, maids, chefs and other staff members.","price":0,"primary_isbn13":"9780062305190","primary_isbn10":"0062305190","publisher":"HarperCollins","rank":1,"title":"RESIDENCE","updated_date":"2015-06-05
+        11:00:20"},{"age_group":"","author":"Kate Betts","contributor":"by Kate Betts","contributor_note":"","created_date":"2015-06-05
+        11:00:20","description":"A memoir about coming into her own as a fashion journalist
+        in Paris during the 1980s, by a former editor at Vogue and Harper''s Bazaar
+        magazines.","price":0,"primary_isbn13":"9780679644422","primary_isbn10":"0679644423","publisher":"Spiegel
+        & Grau","rank":2,"title":"MY PARIS DREAM","updated_date":"2015-06-05 11:00:20"},{"age_group":"","author":"Anne
+        Berest, Audrey Diwan, Caroline de Maigret and Sophie Mas","contributor":"by
+        Anne Berest, Audrey Diwan, Caroline de Maigret and Sophie Mas","contributor_note":"","created_date":"2015-06-05
+        11:00:20","description":"Four Frenchwomen proffer insights on style, culture
+        and romance.","price":0,"primary_isbn13":"9780385538657","primary_isbn10":"0385538650","publisher":"Doubleday","rank":3,"title":"HOW
+        TO BE PARISIAN WHEREVER YOU ARE","updated_date":"2015-06-05 11:00:20"},{"age_group":"","author":"Potter
+        Style","contributor":"by Potter Style","contributor_note":"","created_date":"2015-06-05
+        11:00:20","description":"Thirty-three ways to fold silk squares, homemade
+        knits and assorted shapes and seasonal fabrics.","price":0,"primary_isbn13":"9780385344982","primary_isbn10":"0385344988","publisher":"Potter
+        Style\/Crown","rank":4,"title":"HOW TO TIE A SCARF","updated_date":"2015-06-05
+        11:00:20"},{"age_group":"","author":"Michelle Phan","contributor":"by Michelle
+        Phan","contributor_note":"","created_date":"2015-06-05 11:00:20","description":"Mastering
+        the art of beauty transformation, through the deft use of cosmetics.","price":0,"primary_isbn13":"9780804137348","primary_isbn10":"080413734X","publisher":"Harmony","rank":5,"title":"MAKE
+        UP","updated_date":"2015-06-05 11:00:20"}]},{"list_id":537,"list_name":"Food
+        and Fitness","display_name":"Food and Fitness","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780544609716.jpg","books":[{"age_group":"","author":"Melissa
+        Hartwig and Dallas Hartwig","contributor":"by Melissa Hartwig and Dallas Hartwig","contributor_note":"","created_date":"2015-06-05
+        15:40:09","description":"An overview of a 30-day guide to better health and
+        weight loss.","price":0,"primary_isbn13":"9780544609716","primary_isbn10":"0544609719","publisher":"Houghton
+        Mifflin Harcourt","rank":1,"title":"THE WHOLE30","updated_date":"2015-06-05
+        15:40:09"},{"age_group":"","author":"David Perlmutter with Kristin Loberg","contributor":"by
+        David Perlmutter with Kristin Loberg","contributor_note":"","created_date":"2015-06-05
+        15:40:09","description":"A neurologist links brain health to the population
+        of microbes inhabiting our bodies.","price":0,"primary_isbn13":"9780316380102","primary_isbn10":"0316380105","publisher":"Little,
+        Brown","rank":2,"title":"BRAIN MAKER","updated_date":"2015-06-05 15:40:09"},{"age_group":"","author":"JJ
+        Smith","contributor":"by JJ Smith","contributor_note":"","created_date":"2015-06-05
+        15:40:09","description":"Beverages of combined leafy greens and fruits are
+        the basis for a weight loss and health plan.","price":0,"primary_isbn13":"9781501100109","primary_isbn10":"1501100106","publisher":"Atria","rank":3,"title":"10-DAY
+        GREEN SMOOTHIE CLEANSE","updated_date":"2015-06-05 15:40:09"},{"age_group":"","author":"the
+        staff of Thug Kitchen","contributor":"by the staff of Thug Kitchen","contributor_note":"","created_date":"2015-06-05
+        15:40:09","description":"More than 100 vegan recipes, including cornmeal waffles
+        with strawberry syrup, from the creators of the popular, irreverent website.","price":0,"primary_isbn13":"9781623363581","primary_isbn10":"1623363586","publisher":"Rodale","rank":4,"title":"THUG
+        KITCHEN","updated_date":"2015-06-05 15:40:09"},{"age_group":"","author":"Marco
+        Borges","contributor":"by Marco Borges","contributor_note":"","created_date":"2015-06-05
+        15:40:09","description":"Changing your life through a plant-based diet.","price":0,"primary_isbn13":"9780451474841","primary_isbn10":"0451474848","publisher":"Celebra","rank":5,"title":"THE
+        22-DAY REVOLUTION","updated_date":"2015-06-05 15:40:09"}]},{"list_id":565,"list_name":"Games
+        and Activities","display_name":"Games and Activities","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781780674889.jpg","books":[{"age_group":"","author":"Johanna
+        Basford","contributor":"illustrated by Johanna Basford","contributor_note":"illustrated
+        by Johanna Basford","created_date":"2015-06-08 16:00:09","description":"This
+        \"Inky Quest & Coloring Book\" is a maze of complex outlines to color and
+        embellish, complete with hidden objects to detect, symbols to decipher and
+        a destination at the end.","price":0,"primary_isbn13":"9781780674889","primary_isbn10":"1780674880","publisher":"Laurence
+        King Publishing","rank":1,"title":"ENCHANTED FOREST","updated_date":"2015-06-08
+        16:00:09"},{"age_group":"","author":"Matthew Needler and Phil Southam","contributor":"by
+        Matthew Needler and Phil Southam","contributor_note":"","created_date":"2015-06-08
+        16:00:09","description":"From awe-inspiring cathedrals to wacky water slides,
+        this official Mojang guide offers tips and tricks on how to be a creative
+        genius.","price":0,"primary_isbn13":"9780545685177","primary_isbn10":"0545685176","publisher":"Scholastic","rank":2,"title":"MINECRAFT:
+        CONSTRUCTION HANDBOOK","updated_date":"2015-06-08 16:00:09"},{"age_group":"","author":"Wizards
+        RPG Team","contributor":"by Wizards RPG Team","contributor_note":"","created_date":"2015-06-08
+        16:00:09","description":"A reference for Dungeons & Dragons role players.","price":0,"primary_isbn13":"9780786965601","primary_isbn10":"0786965606","publisher":"Wizards
+        of the Coast","rank":3,"title":"PLAYER''S HANDBOOK","updated_date":"2015-06-08
+        16:00:09"},{"age_group":"","author":"Stephanie Milton with Paul Soares, Jr","contributor":"by
+        Stephanie Milton with Paul Soares, Jr.","contributor_note":"","created_date":"2015-06-08
+        16:00:09","description":"This official Mojang handbook teaches you how to
+        defend yourself against hostile monsters and enemy players.","price":0,"primary_isbn13":"9780545685160","primary_isbn10":"0545685168","publisher":"Scholastic","rank":4,"title":"MINECRAFT:
+        COMBAT HANDBOOK","updated_date":"2015-06-08 16:00:09"},{"age_group":"","author":"Nick
+        Farwell","contributor":"by Nick Farwell. Edited by Jane Riordan and Stephanie
+        Milton","contributor_note":"Edited by Jane Riordan and Stephanie Milton","created_date":"2015-06-08
+        16:00:09","description":"Learn to navigate one of Minecraft''s most complex
+        areas.","price":0,"primary_isbn13":"9780545685153","primary_isbn10":"054568515X","publisher":"Scholastic","rank":5,"title":"MINECRAFT:
+        REDSTONE HANDBOOK","updated_date":"2015-06-08 16:00:09"}]},{"list_id":544,"list_name":"Health","display_name":"Health","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781627790550.jpg","books":[{"age_group":"","author":"Atul
+        Gawande","contributor":"by Atul Gawande","contributor_note":"","created_date":"2015-06-08
+        12:00:10","description":"The surgeon and New Yorker writer considers how doctors
+        fail patients at the end of life and how they can do better.","price":0,"primary_isbn13":"9780805095159","primary_isbn10":"0805095152","publisher":"Metropolitan\/Holt","rank":1,"title":"BEING
+        MORTAL","updated_date":"2015-06-08 12:00:10"},{"age_group":"","author":"Christiane
+        Northrup","contributor":"by Christiane Northrup","contributor_note":"","created_date":"2015-06-08
+        12:00:10","description":"A doctor reconfigures the psychology of aging.","price":0,"primary_isbn13":"9781401945169","primary_isbn10":"1401945163","publisher":"Hay
+        House","rank":2,"title":"GODDESSES NEVER AGE","updated_date":"2015-06-08 12:00:10"},{"age_group":"","author":"JJ
+        Smith","contributor":"by JJ Smith","contributor_note":"","created_date":"2015-06-08
+        12:00:10","description":"Beverages of combined leafy greens and fruits are
+        the basis for a weight loss and health plan.","price":0,"primary_isbn13":"9781501100109","primary_isbn10":"1501100106","publisher":"Atria","rank":3,"title":"10-DAY
+        GREEN SMOOTHIE CLEANSE","updated_date":"2015-06-08 12:00:10"},{"age_group":"","author":"Suzanne
+        Somers","contributor":"by Suzanne Somers","contributor_note":"","created_date":"2015-06-08
+        12:00:10","description":"Advice for maintaining health and thriving in an
+        increasingly chemical world.","price":0,"primary_isbn13":"9780385347723","primary_isbn10":"0385347723","publisher":"Harmony","rank":4,"title":"TOX-SICK","updated_date":"2015-06-08
+        12:00:10"},{"age_group":"","author":"Alexandra Robbins","contributor":"by
+        Alexandra Robbins","contributor_note":"","created_date":"2015-06-08 12:00:10","description":"A
+        chronicle of the daily dramas of the profession as experienced by nurses in
+        four hospitals and interviews with hundreds of others.","price":0,"primary_isbn13":"9780761184232","primary_isbn10":"0761184236","publisher":"Workman","rank":5,"title":"THE
+        NURSES","updated_date":"2015-06-08 12:00:10"}]},{"list_id":543,"list_name":"Humor","display_name":"Humor","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781101903834.jpg","books":[{"age_group":"","author":"Melissa
+        Rivers","contributor":"by Melissa Rivers","contributor_note":"","created_date":"2015-06-05
+        12:40:10","description":"A memoir of life, often uproarious, with the comedian
+        Joan Rivers, written by her daughter.","price":0,"primary_isbn13":"9781101903827","primary_isbn10":"1101903821","publisher":"Crown
+        Archetype","rank":1,"title":"THE BOOK OF JOAN","updated_date":"2015-06-05
+        12:40:10"},{"age_group":"","author":"Amy Poehler","contributor":"by Amy Poehler","contributor_note":"","created_date":"2015-06-05
+        12:40:10","description":"A humorous miscellany from the comedian and actress,
+        an \u201cS.N.L.\u201d alumna and the star of \u201cParks and Recreation.\u201d","price":0,"primary_isbn13":"9780062268341","primary_isbn10":"0062268341","publisher":"Dey
+        Street\/Morrow","rank":2,"title":"YES PLEASE","updated_date":"2015-06-05 12:40:10"},{"age_group":"","author":"Tina
+        Fey","contributor":"by Tina Fey","contributor_note":"","created_date":"2015-06-05
+        12:40:10","description":"A memoir from the former \u201cSaturday Night Live\u201d
+        star and creator of \u201c30 Rock.\u201d","price":0,"primary_isbn13":"9780316056892","primary_isbn10":"0316056898","publisher":"Back
+        Bay\/Little, Brown","rank":3,"title":"BOSSYPANTS","updated_date":"2015-06-05
+        12:40:10"},{"age_group":"","author":"Mindy Kaling","contributor":"by Mindy
+        Kaling","contributor_note":"","created_date":"2015-06-05 12:40:10","description":"Observations
+        from the comedy writer and actress.","price":0,"primary_isbn13":"9780307886279","primary_isbn10":"0307886271","publisher":"Three
+        Rivers","rank":4,"title":"IS EVERYONE HANGING OUT WITHOUT ME?","updated_date":"2015-06-05
+        12:40:10"},{"age_group":"","author":"Jen Lancaster","contributor":"by Jen
+        Lancaster","contributor_note":"","created_date":"2015-06-05 12:40:10","description":"A
+        comic memoir with emphasis on pop culture follies.","price":0,"primary_isbn13":"9780698166981","primary_isbn10":"None","publisher":"NAL","rank":5,"title":"I
+        REGRET NOTHING","updated_date":"2015-06-05 12:40:10"}]},{"list_id":559,"list_name":"Indigenous
+        Americans","display_name":"Indigenous Americans","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781451654660.jpeg","books":[{"age_group":"","author":"Bob
+        Drury and Tom Clavin","contributor":"by Bob Drury and Tom Clavin","contributor_note":"","created_date":"2015-06-12
+        15:00:15","description":"A biography of the influential Sioux leader Red Cloud
+        examines his military prowess and the Plains Indians\u2019 changing way of
+        life.","price":0,"primary_isbn13":"9781451654684","primary_isbn10":"1451654685","publisher":"Simon
+        & Schuster","rank":1,"title":"THE HEART OF EVERYTHING THAT IS","updated_date":"2015-06-12
+        15:00:15"},{"age_group":"","author":"S C Gwynne","contributor":"by S. C. Gwynne","contributor_note":"","created_date":"2015-06-12
+        15:00:15","description":"The story of Quanah Parker, the last chief of the
+        Comanches.","price":0,"primary_isbn13":"9781416591061","primary_isbn10":"1416591060","publisher":"Scribner","rank":2,"title":"EMPIRE
+        OF THE SUMMER MOON","updated_date":"2015-06-12 15:00:15"},{"age_group":"","author":"Christopher
+        McDougall","contributor":"by Christopher McDougall","contributor_note":"","created_date":"2015-06-12
+        15:00:15","description":"Secrets of distance running from a Mexican Indian
+        tribe.","price":0,"primary_isbn13":"9780307279187","primary_isbn10":"0307279189","publisher":"Vintage","rank":3,"title":"BORN
+        TO RUN","updated_date":"2015-06-12 15:00:15"},{"age_group":"","author":"Timothy
+        Egan","contributor":"by Timothy Egan","contributor_note":"","created_date":"2015-06-12
+        15:00:15","description":"A biography of Edward Curtis, who made memorable
+        photographs of American Indians.","price":0,"primary_isbn13":"9780544102767","primary_isbn10":"0544102762","publisher":"Mariner\/Houghton
+        Mifflin Harcourt","rank":4,"title":"SHORT NIGHTS OF THE SHADOW CATCHER","updated_date":"2015-06-12
+        15:00:15"},{"age_group":"","author":"David Roberts","contributor":"by David
+        Roberts","contributor_note":"","created_date":"2015-06-12 15:00:15","description":"Discoveries
+        about the Ancestral Puebloans of 5,000 years ago in the ancient southwest.","price":0,"primary_isbn13":"9780393241624","primary_isbn10":"0393241629","publisher":"Norton","rank":5,"title":"THE
+        LOST WORLD OF THE OLD ONES","updated_date":"2015-06-12 15:00:15"}]},{"list_id":501,"list_name":"Hardcover
+        Political Books","display_name":"Politics","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781455584901.jpg","books":[{"age_group":"","author":"Dana
+        Perino","contributor":"by Dana Perino","contributor_note":"","created_date":"2015-06-16
+        00:00:11","description":"The Fox News contributor and former press secretary
+        under President George W. Bush reviews her life and career and shares lessons\u2028
+        she has learned.","price":0,"primary_isbn13":"9781455584901","primary_isbn10":"1455584908","publisher":"Twelve","rank":1,"title":"AND
+        THE GOOD NEWS IS . . .","updated_date":"2015-06-16 00:00:11"},{"age_group":"","author":"Peter
+        Schweizer","contributor":"by Peter Schweizer","contributor_note":"","created_date":"2015-06-16
+        00:00:11","description":"An examination of donations made to the Clinton Foundation
+        by \u2028foreign entities.","price":0,"primary_isbn13":"9780062369284","primary_isbn10":"0062369288","publisher":"Harper\/HarperCollins","rank":2,"title":"CLINTON
+        CASH","updated_date":"2015-06-16 00:00:11"},{"age_group":"","author":"Chris
+        Kyle with Scott McEwen and Jim DeFelice","contributor":"by Chris Kyle with
+        Scott McEwen and Jim DeFelice","contributor_note":"","created_date":"2015-06-16
+        00:00:11","description":"A member of the Navy Seals who has the most career
+        sniper kills in United States military history discusses his childhood, his
+        marriage and his battlefield experiences during the Iraq war.","price":0,"primary_isbn13":"9780062376336","primary_isbn10":"0062376330","publisher":"Morrow\/HarperCollins","rank":3,"title":"AMERICAN
+        SNIPER","updated_date":"2015-06-16 00:00:11"},{"age_group":"","author":"Laura
+        Hillenbrand","contributor":"by Laura Hillenbrand","contributor_note":"","created_date":"2015-06-16
+        00:00:11","description":"An Olympic runner''s story of survival as a prisoner
+        of the Japanese in World War II.","price":0,"primary_isbn13":"9780679603757","primary_isbn10":"0679603751","publisher":"Random
+        House","rank":4,"title":"UNBROKEN","updated_date":"2015-06-16 00:00:11"},{"age_group":"","author":"Kate
+        Andersen Brower","contributor":"by Kate Andersen Brower","contributor_note":"","created_date":"2015-06-16
+        00:00:11","description":"Fifty years of White House lore, based on interviews
+        with butlers, maids, chefs and \u2028other staff members.","price":0,"primary_isbn13":"9780062305190","primary_isbn10":"0062305190","publisher":"Harper","rank":5,"title":"RESIDENCE","updated_date":"2015-06-16
+        00:00:11"}]},{"list_id":560,"list_name":"Race and Civil Rights","display_name":"Race
+        and Civil Rights","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781595586438.jpg","books":[{"age_group":"","author":"Michelle
+        Alexander","contributor":"by Michelle Alexander","contributor_note":"","created_date":"2015-06-12
+        14:40:10","description":"A law professor takes aim at the \u201cwar on drugs\u201d
+        and its impact on black men.","price":0,"primary_isbn13":"9781595586438","primary_isbn10":"1595586431","publisher":"New
+        Press","rank":1,"title":"THE NEW JIM CROW","updated_date":"2015-06-12 14:40:10"},{"age_group":"","author":"Bryan
+        Stevenson","contributor":"by Bryan Stevenson","contributor_note":"","created_date":"2015-06-12
+        14:40:10","description":"The executive director of the Equal Justice Initiative
+        in Alabama describes his work in defense of poor people and the unjustly accused.","price":0,"primary_isbn13":"9780812994520","primary_isbn10":"0812994523","publisher":"Spiegel
+        & Grau","rank":2,"title":"JUST MERCY","updated_date":"2015-06-12 14:40:10"},{"age_group":"","author":"John
+        W Whitehead","contributor":"by John W. Whitehead","contributor_note":"","created_date":"2015-06-12
+        14:40:10","description":"A Constitutional attorney describes a nation on the
+        verge of undermining the basic freedoms guaranteed to the citizenry in the
+        Constitution.","price":0,"primary_isbn13":"9781590793091","primary_isbn10":"1590793099","publisher":"Select
+        Books","rank":3,"title":"BATTLEFIELD AMERICA","updated_date":"2015-06-12 14:40:10"},{"age_group":"","author":"Claudia
+        Rankine","contributor":"by Claudia Rankine","contributor_note":"","created_date":"2015-06-12
+        14:40:10","description":"Prose poems examine the experience of race and racism
+        in our fractured society.","price":0,"primary_isbn13":"9781555976903","primary_isbn10":"1555976905","publisher":"Graywolf","rank":4,"title":"CITIZEN","updated_date":"2015-06-12
+        14:40:10"},{"age_group":"","author":"John Lewis, Andrew Aydin and Nate Powell","contributor":"by
+        John Lewis, Andrew Aydin and Nate Powell","contributor_note":"","created_date":"2015-06-12
+        14:40:10","description":"Representative John Lewis of Georgia describes his
+        childhood and the beginning of his involvement in the civil rights movement.
+        The first volume of a trilogy.","price":0,"primary_isbn13":"9781603093002","primary_isbn10":"1603093001","publisher":"Top
+        Shelf Productions","rank":5,"title":"MARCH: BOOK ONE","updated_date":"2015-06-12
+        14:40:10"}]},{"list_id":505,"list_name":"Relationships","display_name":"Relationships","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780385538749.jpg","books":[{"age_group":"","author":"Jon
+        Krakauer","contributor":"by Jon Krakauer","contributor_note":"","created_date":"2015-06-05
+        17:20:09","description":"The author of \u201cInto the Wild\u201d discusses
+        cases of acquaintance rape in Missoula, Mont., home of the University of Montana.","price":0,"primary_isbn13":"9780385538732","primary_isbn10":"0385538731","publisher":"DOUBLEDAY","rank":1,"title":"MISSOULA","updated_date":"2015-06-05
+        17:20:09"},{"age_group":"","author":"Gary Chapman","contributor":"by Gary
+        Chapman","contributor_note":"","created_date":"2015-06-05 17:20:09","description":"How
+        to communicate love with quality time, affirmative words, gifts, acts of service,
+        and physical touch.","price":0,"primary_isbn13":"9780802412706","primary_isbn10":"080241270X","publisher":"Northfield","rank":2,"title":"THE
+        FIVE LOVE LANGUAGES","updated_date":"2015-06-05 17:20:09"},{"age_group":"","author":"Helen
+        Macdonald","contributor":"by Helen Macdonald","contributor_note":"","created_date":"2015-06-05
+        17:20:09","description":"Overwhelmed by her father\u2019s death, a British
+        woman decides to raise a goshawk, a bird that is fierce and notoriously difficult
+        to tame.","price":0,"primary_isbn13":"9780802123411","primary_isbn10":"0802123414","publisher":"Grove\/Atlantic","rank":3,"title":"H
+        IS FOR HAWK","updated_date":"2015-06-05 17:20:09"},{"age_group":"","author":"Brene
+        Brown","contributor":"by Brene Brown","contributor_note":"","created_date":"2015-06-05
+        17:20:09","description":"The courage to embrace one''s vulnerability is a
+        positive force in loving and living.","price":0,"primary_isbn13":"9781592408412","primary_isbn10":"1592408419","publisher":"Avery","rank":4,"title":"DARING
+        GREATLY","updated_date":"2015-06-05 17:20:09"},{"age_group":"","author":"Bob
+        Goff","contributor":"by Bob Goff","contributor_note":"","created_date":"2015-06-05
+        17:20:09","description":"How to forge meaningful connections with strangers
+        through positive actions.","price":0,"primary_isbn13":"9781400203758","primary_isbn10":"1400203759","publisher":"Thomas
+        Nelson","rank":5,"title":"LOVE DOES","updated_date":"2015-06-05 17:20:09"}]},{"list_id":503,"list_name":"Religion
+        Spirituality and Faith","display_name":"Religion, Spirituality and Faith","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780812993257.jpg","books":[{"age_group":"","author":"David
+        Brooks","contributor":"by David Brooks","contributor_note":"","created_date":"2015-06-08
+        17:00:12","description":"The Times columnist extols personal virtues like
+        kindness and honesty in a materialistic age.","price":0,"primary_isbn13":"9780812993257","primary_isbn10":"081299325X","publisher":"Random
+        House","rank":1,"title":"THE ROAD TO CHARACTER","updated_date":"2015-06-08
+        17:00:12"},{"age_group":"","author":"Sarah Young","contributor":"by Sarah
+        Young","contributor_note":"","created_date":"2015-06-08 17:00:12","description":"A
+        devotional journal.","price":0,"primary_isbn13":"9781591451884","primary_isbn10":"1591451884","publisher":"Thomas
+        Nelson","rank":2,"title":"JESUS CALLING","updated_date":"2015-06-08 17:00:12"},{"age_group":"","author":"Don
+        Miguel Ruiz","contributor":"by Don Miguel Ruiz","contributor_note":"","created_date":"2015-06-08
+        17:00:12","description":"A practical guide to personal conduct and spiritual
+        freedom.","price":0,"primary_isbn13":"9781878424310","primary_isbn10":"1878424319","publisher":"Amber-Allen","rank":3,"title":"THE
+        FOUR AGREEMENTS","updated_date":"2015-06-08 17:00:12"},{"age_group":"","author":"Eckhart
+        Tolle","contributor":"by Eckhart Tolle","contributor_note":"","created_date":"2015-06-08
+        17:00:12","description":"A guide to personal growth and spiritual enlightenment.","price":0,"primary_isbn13":"9781577314806","primary_isbn10":"1577314808","publisher":"New
+        World Library","rank":4,"title":"THE POWER OF NOW","updated_date":"2015-06-08
+        17:00:12"},{"age_group":"","author":"Michael A Singer","contributor":"by Michael
+        A. Singer","contributor_note":"","created_date":"2015-06-08 17:00:12","description":"The
+        answer to who we are is said to be found in our consciousness.","price":0,"primary_isbn13":"9781572245372","primary_isbn10":"1572245379","publisher":"New
+        Harbinger\/Noetic","rank":5,"title":"THE UNTETHERED SOUL","updated_date":"2015-06-08
+        17:00:12"}]},{"list_id":531,"list_name":"Science","display_name":"Science","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781476728742.jpeg","books":[{"age_group":"","author":"David
+        McCullough","contributor":"by David McCullough","contributor_note":"","created_date":"2015-06-05
+        11:00:17","description":"The story of the bicycle mechanics from Ohio who
+        ushered in the age of flight; by the author of \u201c1776\u201d and \u201cThe
+        Greater Journey.\u201d","price":0,"primary_isbn13":"9781476728742","primary_isbn10":"1476728747","publisher":"Simon
+        & Schuster","rank":1,"title":"THE WRIGHT BROTHERS","updated_date":"2015-06-05
+        11:00:17"},{"age_group":"","author":"Atul Gawande","contributor":"by Atul
+        Gawande","contributor_note":"","created_date":"2015-06-05 11:00:18","description":"The
+        surgeon and New Yorker writer considers how doctors fail patients at the end
+        of life, and how they can do better; the subject of a PBS documentary.","price":0,"primary_isbn13":"9780805095159","primary_isbn10":"0805095152","publisher":"Metropolitan\/
+        Holt","rank":2,"title":"BEING MORTAL","updated_date":"2015-06-05 11:00:18"},{"age_group":"","author":"Oliver
+        Sacks","contributor":"by Oliver Sacks","contributor_note":"","created_date":"2015-06-05
+        11:00:18","description":"A memoir by the neurologist and writer, the author
+        of \u201cAwakenings\u201d and many other books.","price":0,"primary_isbn13":"9780385352543","primary_isbn10":"0385352549","publisher":"Knopf","rank":3,"title":"ON
+        THE MOVE","updated_date":"2015-06-05 11:00:18"},{"age_group":"","author":"Ashlee
+        Vance","contributor":"by Ashlee Vance","contributor_note":"","created_date":"2015-06-05
+        11:00:18","description":"A technology writer follows Musk\u2019s life from
+        his difficult South African childhood to his involvement in Internet start-ups
+        like the rocket company SpaceX, the electric-car company Tesla and the solar
+        power installation company Solar City.","price":0,"primary_isbn13":"9780062301239","primary_isbn10":"0062301233","publisher":"Ecco\/HarperCollins","rank":4,"title":"ELON
+        MUSK","updated_date":"2015-06-05 11:00:18"},{"age_group":"","author":"Malcolm
+        Gladwell","contributor":"by Malcolm Gladwell","contributor_note":"","created_date":"2015-06-05
+        11:00:18","description":"How disadvantages can work in our favor, from the
+        author of \"The Tipping Point\" and \"Outliers\".","price":0,"primary_isbn13":"9780316204378","primary_isbn10":"0316204374","publisher":"Little,
+        Brown","rank":5,"title":"DAVID AND GOLIATH","updated_date":"2015-06-05 11:00:18"}]},{"list_id":538,"list_name":"Sports","display_name":"Sports","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9781101622742.jpg","books":[{"age_group":"","author":"Daniel
+        James Brown","contributor":"by Daniel James Brown","contributor_note":"","created_date":"2015-06-05
+        11:00:19","description":"The University of Washington\u2019s eight-oar crew
+        and their quest for gold at the 1936 Berlin Olympics.","price":0,"primary_isbn13":"9780143125471","primary_isbn10":"0143125478","publisher":"Penguin","rank":1,"title":"THE
+        BOYS IN THE BOAT","updated_date":"2015-06-05 11:00:19"},{"age_group":"","author":"Laura
+        Hillenbrand","contributor":"by Laura Hillenbrand","contributor_note":"","created_date":"2015-06-05
+        11:00:20","description":"An Olympic runner\u2019s story of survival as a prisoner
+        of the Japanese in World War II; now a movie. \n","price":0,"primary_isbn13":"9780679603757","primary_isbn10":"0679603751","publisher":"Random
+        House","rank":2,"title":"UNBROKEN","updated_date":"2015-06-05 11:00:20"},{"age_group":"","author":"Ronda
+        Rousey with Maria Burns Ortiz","contributor":"by Ronda Rousey with Maria Burns
+        Ortiz","contributor_note":"","created_date":"2015-06-05 11:00:20","description":"The
+        Olympic medalist in judo and undefeated Ultimate Fighting Championship (UFC)
+        women''s bantamweight champion and Hollywood celebrity tells her story.","price":0,"primary_isbn13":"9781941393260","primary_isbn10":"1941393268","publisher":"Regan
+        Arts","rank":3,"title":"MY FIGHT \/ YOUR FIGHT","updated_date":"2015-06-05
+        11:00:20"},{"age_group":"","author":"Helen Macdonald","contributor":"by Helen
+        Macdonald","contributor_note":"","created_date":"2015-06-05 11:00:20","description":"A
+        British woman who is also a lifelong falconer, raises a fierce goshawk, rekindling
+        the spirit of this Arthurian sport even as she reflects and quotes from T.
+        H. White''s book, \"The Goshawk.\"","price":0,"primary_isbn13":"9780802123411","primary_isbn10":"0802123414","publisher":"Grove\/Atlantic","rank":4,"title":"H
+        IS FOR HAWK","updated_date":"2015-06-05 11:00:20"},{"age_group":"","author":"Pedro
+        Martinez and Michael Silverman","contributor":"by Pedro Martinez and Michael
+        Silverman","contributor_note":"","created_date":"2015-06-05 11:00:20","description":"Memoir
+        from the eight-time All Star, three-time Cy Young Award winner and World Series
+        champion pitcher.","price":0,"primary_isbn13":"9780544279339","primary_isbn10":"0544279336","publisher":"Houghton
+        Mifflin Harcourt","rank":5,"title":"PEDRO","updated_date":"2015-06-05 11:00:20"}]},{"list_id":542,"list_name":"Travel","display_name":"Travel","updated":"MONTHLY","list_image":"http:\/\/du.ec2.nytimes.com.s3.amazonaws.com\/prd\/books\/9780307957658.jpg","books":[{"age_group":"","author":"Cheryl
+        Strayed","contributor":"by Cheryl Strayed","contributor_note":"","created_date":"2015-06-05
+        18:00:09","description":"A woman\u2019s account of the life-changing 1,100-mile
+        solo hike she took along the Pacific Crest Trail in 1995; now a movie.","price":0,"primary_isbn13":"9780307957658","primary_isbn10":"0307957659","publisher":"Knopf","rank":1,"title":"WILD","updated_date":"2015-06-05
+        18:00:09"},{"age_group":"","author":"Bill Bryson","contributor":"by Bill Bryson","contributor_note":"","created_date":"2015-06-05
+        18:00:09","description":"Rediscovering America on the Appalachian Trail.","price":0,"primary_isbn13":"9780307717832","primary_isbn10":"0307717836","publisher":"Broadway
+        Books","rank":2,"title":"A WALK IN THE WOODS","updated_date":"2015-06-05 18:00:09"},{"age_group":"","author":"Brandon
+        Stanton","contributor":"by Brandon Stanton","contributor_note":"","created_date":"2015-06-05
+        18:00:09","description":"Four hundred color photos of New Yorkers, with brief
+        commentary by the author.","price":0,"primary_isbn13":"9781250038821","primary_isbn10":"1250038820","publisher":"St.
+        Martin''s","rank":3,"title":"HUMANS OF NEW YORK","updated_date":"2015-06-05
+        18:00:09"},{"age_group":"","author":"John Waters","contributor":"by John Waters","contributor_note":"","created_date":"2015-06-05
+        18:00:09","description":"The cult-film director hitchhikes across the country.","price":0,"primary_isbn13":"9780374535452","primary_isbn10":"0374535450","publisher":"Farrar,
+        Straus & Giroux","rank":4,"title":"CARSICK","updated_date":"2015-06-05 18:00:09"},{"age_group":"","author":"Gary
+        Kamiya","contributor":"by Gary Kamiya","contributor_note":"","created_date":"2015-06-05
+        18:00:09","description":"A resident of San Francisco celebrates the city''s
+        history, neighborhoods, landmarks and vistas.","price":0,"primary_isbn13":"9781620401255","primary_isbn10":"1620401258","publisher":"Bloomsbury
+        USA","rank":5,"title":"COOL GRAY CITY OF LOVE","updated_date":"2015-06-05
+        18:00:09"}]}]}}'
+    http_version: 
+  recorded_at: Wed, 24 Jun 2015 16:42:31 GMT
+recorded_with: VCR 2.9.3

@@ -10,12 +10,15 @@ class NytService
   end
 
   def time_best_seller
-    time = (Time.now - 30.days).strftime("%Y-%m-%e")
-    time.gsub!(" ", "0")
-    JSON.parse(connection.get("http://api.nytimes.com/svc/books/v3/lists/overview.json?callback=books&published_date=#{time}&api-key=#{URI.escape(ENV["NYT_KEY"])}").body, symbolize_names: true)
+    time = (Time.now - 30.days).strftime("%Y-%m-%e").gsub!(" ", "0")
+    parse(connection.get("http://api.nytimes.com/svc/books/v3/lists/overview.json?callback=books&published_date=#{time}&api-key=#{URI.escape(ENV["NYT_KEY"])}"))
   end
 
   # response["results"]["lists"]
+  private
 
+  def parse(response)
+   JSON.parse(response.body, symbolize_names: true) 
+  end
 
 end

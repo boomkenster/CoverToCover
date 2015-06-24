@@ -10,7 +10,7 @@ RSpec.describe "Visitors" do
                            image_url: "www.google.com",
                            rating: 4)
   visit root_path
-  select("Mark Zuckerberg", :from => "droppy")
+  select("Mark Zuckerberg", :from => "dropdown1")
   expect(current_path).to_eq bookclub_index_path
 
   expect(page).to have_content("Mark Zuckerberg's Reading List")

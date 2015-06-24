@@ -1,117 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>CoverToCover</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>CoverToCover</title>
 
-  <!-- CSS  -->
-</head>
-<body>
+    <!-- CSS  -->
+  </head>
+  <body>
 
-  <%= render partial: 'home/nav' %>
+    <%= render partial: 'home/nav' %>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">CoverToCover</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Search Through Great Bookclubs</h5>
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center teal-text text-lighten-2">CoverToCover</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">Search Through Great Bookclubs</h5>
+          </div>
+          <div class="row center">
+            <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          </div>
+          <br><br>
+
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
       </div>
+      <div class="parallax"><%= image_tag("weekend.jpg", alt: "Unsplashed background img 1") %></div>
+
     </div>
-    <div class="parallax"><%= image_tag("weekend.jpg", alt: "Unsplashed background img 1") %></div>
-
-  </div>
 
 
-  <div class="container">
-    <div class="section">
+    <div class="container">
+      <div class="section">
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
-            <h5 class="center">Idenify what to read next fast</h5>
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
+              <h5 class="center">Identify what to read next fast</h5>
 
-            <p class="light">We listed and curated all the information so you can easily find the next chapter</p>
+              <p class="light">We listed and curated all the information so you can easily find the next chapter</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
+              <h5 class="center">The reviews are in, take a look</h5>
+
+              <p class="light">The description is easily accessible, so you can see it immediately</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
+              <h5 class="center">Simple to navigate and explore</h5>
+
+              <p class="light">Everything is laid out so you will not need to search any further</p>
+            </div>
           </div>
         </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
-            <h5 class="center">The reviews are in, take a look</h5>
+      </div>
+    </div>
 
-            <p class="light">The reviews are next to the book so you can see it immediately</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
-            <h5 class="center">Simple to navigate and explore</h5>
-
-            <p class="light">Everything is laid out so you will not need to search any further</p>
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">Great Lists Curated For You</h5>
           </div>
         </div>
       </div>
-
+      <div class="parallax"><%= image_tag("the-reader.jpg", alt: "Unsplashed background img 1") %></div>
     </div>
-  </div>
 
+    <div class="container">
+      <div class="section">
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">Great Lists Curated For You</h5>
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4>About Us</h4>
+            <p class="left-align light"> We set out to find some of the best book lists and clubs out there. This way you can explore and see what is popular and recommend. Our goal is to get less bad books into your hands! We want you to love what you are reading; everytime.</p>
+          </div>
         </div>
+
       </div>
     </div>
-    <div class="parallax"><%= image_tag("the-reader.jpg", alt: "Unsplashed background img 1") %></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>About Us</h4>
-          <p class="left-align light"> We set out to find some of the best book lists and clubs out there. This way you can explore and see what is popular and recommend. Our goal is to get less bad books into your hands! We want you to love what you are reading; everytime.</p>
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">You'll Find What Interest You</h5>
+          </div>
         </div>
       </div>
-
+      <div class="parallax"><%= image_tag("bookshelf.jpg", alt: "Unsplashed background img 1") %></div>
     </div>
-  </div>
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">You'll Find What Interest You</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><%= image_tag("bookshelf.jpg", alt: "Unsplashed background img 1") %></div>
-  </div>
-
-  <footer class="page-footer teal">
+    <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Contact Us</h5>
           <p class="grey-text text-lighten-4">Let us know what you think!</p>
-
 
         </div>
         <div class="col l3 s12">
@@ -132,16 +128,15 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Follow Us On <a class="brown-text text-lighten-3" href="http://twitter.com">Twitter</a>
+        Follow Us On <a class="brown-text text-lighten-3" href="http://twitter.com">Twitter</a>
       </div>
     </div>
-  </footer>
+    </footer>
 
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
 
   </body>
 </html>

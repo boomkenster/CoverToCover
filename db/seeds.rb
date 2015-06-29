@@ -29,6 +29,7 @@
 
   PETER_THIEL = ["The Black Swan", "New Atlantis", "The American Challenge", "The Right Stuff", "The Sovereign Individual", "The Diamond Age", "100 Plus", "Bloodlands", "Resurrection from the Underground"]
 
+PEOPLE = [MARKS_LIST, OPRAH_LIST, MARC_A, BEN_H, LARRY_PAGE, JEFF_BEZOS, STEVE_JOBS, BILL_GATES, PETER_THIEL]
 
   Booklist.create(name: "Mark's List")
   Booklist.create(name: "Steve Jobs")
@@ -41,170 +42,190 @@
   Booklist.create(name: "Oprah's Club")
 
 
-  def find_by_title(title)
-    Goodreads.new.book_by_title(title)
-  end
+  # def find_by_title(title)
+  #   Goodreads.new.book_by_title(title)
+  # end
 
-  def marks_list
-    MARKS_LIST.map do |title|
-      find_by_title(title)
+  # def marks_list
+  #   MARKS_LIST.map do |title|
+  #     find_by_title(title)
+  #   end
+  # end
+
+  # def steves_list
+  #   STEVE_JOBS.map do |title|
+  #     find_by_title(title)
+  #   end
+  # end
+
+  # def marcadd_list
+  #   MARC_A.map do |title|
+  #     find_by_title(title)
+  #   end
+  # end
+
+  # def bens_list
+  #   BEN_H.map do |title|
+  #     find_by_title(title)
+  #   end
+  # end
+
+  # def larrys_list
+  #   LARRY_PAGE.map do |title|
+  #     find_by_title(title)
+  #   end
+  # end
+
+  # def jeffs_list
+  #   JEFF_BEZOS.map do |title|
+  #     find_by_title(title)
+  #   end
+  # end
+
+  # def peters_list
+  #   PETER_THIEL.map do |title|
+  #     find_by_title(title)
+  #   end
+  # end
+
+  # def bills_list
+  #   BILL_GATES.map do |title|
+  #     find_by_title(title)
+  #   end
+  # end
+
+
+  # def oprahs_list
+  #   OPRAH_LIST.map do |title|
+  #     find_by_title(title)
+  #   end
+  # end
+
+  # def mark_db
+  #   marks_list.map do |cover|
+  #     Book.create(
+  #       title: cover.title,
+  #       author: cover.authors.author.to_a[1][1],
+  #       description: cover.description,
+  #       image_url: cover.image_url,
+  #       rating: cover.average_rating).booklists << Booklist.find(1)
+  #   end
+  # end
+
+  # def steve_db
+  #   steves_list.map do |cover|
+  #     Book.create(
+  #       title: cover.title,
+  #       author: cover.authors.author.to_a[1][1],
+  #       description: cover.description,
+  #       image_url: cover.image_url,
+  #       rating: cover.average_rating).booklists << Booklist.find(2)
+  #   end
+  # end
+
+  # def marcadd_db
+  #   marcadd_list.map do |cover|
+  #     Book.create(
+  #       title: cover.title,
+  #       author: cover.authors.author.to_a[1][1],
+  #       description: cover.description,
+  #       image_url: cover.image_url,
+  #       rating: cover.average_rating).booklists << Booklist.find(3)
+  #   end
+  # end
+
+  # def ben_db
+  # bens_list.map do |cover|
+  #   Book.create(
+  #     title: cover.title,
+  #     author: cover.authors.author.to_a[1][1],
+  #     description: cover.description,
+  #     image_url: cover.image_url,
+  #     rating: cover.average_rating).booklists << Booklist.find(4)
+  #     end
+  #   end
+
+  # def larry_db
+  # larrys_list.map do |cover|
+  #   Book.create(
+  #     title: cover.title,
+  #     author: cover.authors.author.to_a[1][1],
+  #     description: cover.description,
+  #     image_url: cover.image_url,
+  #     rating: cover.average_rating).booklists << Booklist.find(5)
+  #     end
+  #   end
+
+  # def jeff_db
+  # jeffs_list.map do |cover|
+  #   Book.create(
+  #     title: cover.title,
+  #     author: cover.authors.author.to_a[1][1],
+  #     description: cover.description,
+  #     image_url: cover.image_url,
+  #     rating: cover.average_rating).booklists << Booklist.find(6)
+  #     end
+  #   end
+
+  # def peter_db
+  # peters_list.map do |cover|
+  #   Book.create(
+  #     title: cover.title,
+  #     author: cover.authors.author.to_a[1][1],
+  #     description: cover.description,
+  #     image_url: cover.image_url,
+  #     rating: cover.average_rating).booklists << Booklist.find(7)
+  #     end
+  #   end
+
+  # def bill_db
+  # bills_list.map do |cover|
+  #   Book.create(
+  #     title: cover.title,
+  #     author: cover.authors.author.to_a[1][1],
+  #     description: cover.description,
+  #     image_url: cover.image_url,
+  #     rating: cover.average_rating).booklists << Booklist.find(8)
+  #     end
+  #   end
+
+  # def oprah_db
+  #   oprahs_list.map do |cover|
+  #     Book.create(
+  #       title: cover.title,
+  #       author: cover.authors.author.to_a[1][1],
+  #       description: cover.description,
+  #       image_url: cover.image_url,
+  #       rating: cover.average_rating).booklists << Booklist.find(9)
+  #   end
+  # end
+
+  # mark_db
+  # steve_db
+  # marcadd_db
+  # ben_db
+  # larry_db
+  # jeff_db
+  # peter_db
+  # bill_db
+  # oprah_db
+
+def book_info
+  @book_data = PEOPLE.map do |person|
+    person.map do |title|
+      finy_by_title(title)
     end
   end
+end
 
-  def steves_list
-    STEVE_JOBS.map do |title|
-      find_by_title(title)
-    end
-  end
-
-  def marcadd_list
-    MARC_A.map do |title|
-      find_by_title(title)
-    end
-  end
-
-  def bens_list
-    BEN_H.map do |title|
-      find_by_title(title)
-    end
-  end
-
-  def larrys_list
-    LARRY_PAGE.map do |title|
-      find_by_title(title)
-    end
-  end
-
-  def jeffs_list
-    JEFF_BEZOS.map do |title|
-      find_by_title(title)
-    end
-  end
-
-  def peters_list
-    PETER_THIEL.map do |title|
-      find_by_title(title)
-    end
-  end
-
-  def bills_list
-    BILL_GATES.map do |title|
-      find_by_title(title)
-    end
-  end
-
-
-  def oprahs_list
-    OPRAH_LIST.map do |title|
-      find_by_title(title)
-    end
-  end
-
-  def mark_db
-    marks_list.map do |cover|
-      Book.create(
-        title: cover.title,
-        author: cover.authors.author.to_a[1][1],
-        description: cover.description,
-        image_url: cover.image_url,
-        rating: cover.average_rating).booklists << Booklist.find(1)
-    end
-  end
-
-  def steve_db
-    steves_list.map do |cover|
-      Book.create(
-        title: cover.title,
-        author: cover.authors.author.to_a[1][1],
-        description: cover.description,
-        image_url: cover.image_url,
-        rating: cover.average_rating).booklists << Booklist.find(2)
-    end
-  end
-
-  def marcadd_db
-    marcadd_list.map do |cover|
-      Book.create(
-        title: cover.title,
-        author: cover.authors.author.to_a[1][1],
-        description: cover.description,
-        image_url: cover.image_url,
-        rating: cover.average_rating).booklists << Booklist.find(3)
-    end
-  end
-
-  def ben_db
-  bens_list.map do |cover|
+def create_lists
+  @book_data.each_with_index do |cover, index|
     Book.create(
       title: cover.title,
       author: cover.authors.author.to_a[1][1],
       description: cover.description,
       image_url: cover.image_url,
-      rating: cover.average_rating).booklists << Booklist.find(4)
-      end
+      rating: cover.average_rating).booklists << Booklist.find(index)
     end
+end
 
-  def larry_db
-  larrys_list.map do |cover|
-    Book.create(
-      title: cover.title,
-      author: cover.authors.author.to_a[1][1],
-      description: cover.description,
-      image_url: cover.image_url,
-      rating: cover.average_rating).booklists << Booklist.find(5)
-      end
-    end
-
-  def jeff_db
-  jeffs_list.map do |cover|
-    Book.create(
-      title: cover.title,
-      author: cover.authors.author.to_a[1][1],
-      description: cover.description,
-      image_url: cover.image_url,
-      rating: cover.average_rating).booklists << Booklist.find(6)
-      end
-    end
-
-  def peter_db
-  peters_list.map do |cover|
-    Book.create(
-      title: cover.title,
-      author: cover.authors.author.to_a[1][1],
-      description: cover.description,
-      image_url: cover.image_url,
-      rating: cover.average_rating).booklists << Booklist.find(7)
-      end
-    end
-
-  def bill_db
-  bills_list.map do |cover|
-    Book.create(
-      title: cover.title,
-      author: cover.authors.author.to_a[1][1],
-      description: cover.description,
-      image_url: cover.image_url,
-      rating: cover.average_rating).booklists << Booklist.find(8)
-      end
-    end
-
-  def oprah_db
-    oprahs_list.map do |cover|
-      Book.create(
-        title: cover.title,
-        author: cover.authors.author.to_a[1][1],
-        description: cover.description,
-        image_url: cover.image_url,
-        rating: cover.average_rating).booklists << Booklist.find(9)
-    end
-  end
-
-  mark_db
-  steve_db
-  marcadd_db
-  ben_db
-  larry_db
-  jeff_db
-  peter_db
-  bill_db
-  oprah_db
